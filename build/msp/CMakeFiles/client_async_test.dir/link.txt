@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/client_async_test.dir/examples/client_async_test.cpp.o  -o client_async_test  -Wl,-rpath,/home/thanhdat/drone/build/msp libmspclient.so -lpthread 

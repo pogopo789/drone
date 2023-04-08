@@ -1,0 +1,8 @@
+prefix=/home/thanhdat/drone/devel/.private/xbox_controller
+
+Name: xbox_controller
+Description: Description of xbox_controller
+Version: 0.0.0
+Cflags: -I/home/thanhdat/drone/devel/.private/xbox_controller/include -I/home/thanhdat/drone/src/xbox_controller/include
+Libs: -L${prefix}/lib 
+Requires: joy roscpp

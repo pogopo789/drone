@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/thanhdat/drone/devel/.private/multiwii/setup.sh
