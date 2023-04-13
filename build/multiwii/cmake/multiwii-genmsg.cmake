@@ -2,7 +2,7 @@
 
 message(STATUS "multiwii: 1 messages, 2 services")
 
-set(MSG_I_FLAGS "-Imultiwii:/home/thanhdat/drone/src/multiwii/msg")
+set(MSG_I_FLAGS "-Imultiwii:/home/thanhdat/ws_drone/src/multiwii/msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,19 +17,19 @@ add_custom_target(multiwii_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg" NAME_WE)
 add_custom_target(_multiwii_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "multiwii" "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "multiwii" "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg" ""
 )
 
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" NAME_WE)
 add_custom_target(_multiwii_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "multiwii" "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" "multiwii/MSPRawMessage"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "multiwii" "/home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" "multiwii/MSPRawMessage"
 )
 
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv" NAME_WE)
 add_custom_target(_multiwii_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "multiwii" "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv" "multiwii/MSPRawMessage"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "multiwii" "/home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv" "multiwii/MSPRawMessage"
 )
 
 #
@@ -39,7 +39,7 @@ add_custom_target(_multiwii_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(multiwii
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/multiwii
@@ -47,15 +47,15 @@ _generate_msg_cpp(multiwii
 
 ### Generating Services
 _generate_srv_cpp(multiwii
-  "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv"
+  "/home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/multiwii
 )
 _generate_srv_cpp(multiwii
-  "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv"
+  "/home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/multiwii
 )
 
@@ -71,11 +71,11 @@ add_custom_target(multiwii_generate_messages_cpp
 add_dependencies(multiwii_generate_messages multiwii_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg" NAME_WE)
 add_dependencies(multiwii_generate_messages_cpp _multiwii_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" NAME_WE)
 add_dependencies(multiwii_generate_messages_cpp _multiwii_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv" NAME_WE)
 add_dependencies(multiwii_generate_messages_cpp _multiwii_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -88,7 +88,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS multiwii_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(multiwii
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/multiwii
@@ -96,15 +96,15 @@ _generate_msg_eus(multiwii
 
 ### Generating Services
 _generate_srv_eus(multiwii
-  "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv"
+  "/home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/multiwii
 )
 _generate_srv_eus(multiwii
-  "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv"
+  "/home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/multiwii
 )
 
@@ -120,11 +120,11 @@ add_custom_target(multiwii_generate_messages_eus
 add_dependencies(multiwii_generate_messages multiwii_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg" NAME_WE)
 add_dependencies(multiwii_generate_messages_eus _multiwii_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" NAME_WE)
 add_dependencies(multiwii_generate_messages_eus _multiwii_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv" NAME_WE)
 add_dependencies(multiwii_generate_messages_eus _multiwii_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -137,7 +137,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS multiwii_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(multiwii
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/multiwii
@@ -145,15 +145,15 @@ _generate_msg_lisp(multiwii
 
 ### Generating Services
 _generate_srv_lisp(multiwii
-  "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv"
+  "/home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/multiwii
 )
 _generate_srv_lisp(multiwii
-  "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv"
+  "/home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/multiwii
 )
 
@@ -169,11 +169,11 @@ add_custom_target(multiwii_generate_messages_lisp
 add_dependencies(multiwii_generate_messages multiwii_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg" NAME_WE)
 add_dependencies(multiwii_generate_messages_lisp _multiwii_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" NAME_WE)
 add_dependencies(multiwii_generate_messages_lisp _multiwii_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv" NAME_WE)
 add_dependencies(multiwii_generate_messages_lisp _multiwii_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -186,7 +186,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS multiwii_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(multiwii
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/multiwii
@@ -194,15 +194,15 @@ _generate_msg_nodejs(multiwii
 
 ### Generating Services
 _generate_srv_nodejs(multiwii
-  "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv"
+  "/home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/multiwii
 )
 _generate_srv_nodejs(multiwii
-  "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv"
+  "/home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/multiwii
 )
 
@@ -218,11 +218,11 @@ add_custom_target(multiwii_generate_messages_nodejs
 add_dependencies(multiwii_generate_messages multiwii_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg" NAME_WE)
 add_dependencies(multiwii_generate_messages_nodejs _multiwii_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" NAME_WE)
 add_dependencies(multiwii_generate_messages_nodejs _multiwii_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv" NAME_WE)
 add_dependencies(multiwii_generate_messages_nodejs _multiwii_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -235,7 +235,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS multiwii_generate_messages_nodejs)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(multiwii
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/multiwii
@@ -243,15 +243,15 @@ _generate_msg_py(multiwii
 
 ### Generating Services
 _generate_srv_py(multiwii
-  "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv"
+  "/home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/multiwii
 )
 _generate_srv_py(multiwii
-  "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv"
+  "/home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
+  "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/multiwii
 )
 
@@ -267,11 +267,11 @@ add_custom_target(multiwii_generate_messages_py
 add_dependencies(multiwii_generate_messages multiwii_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg" NAME_WE)
 add_dependencies(multiwii_generate_messages_py _multiwii_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv" NAME_WE)
 add_dependencies(multiwii_generate_messages_py _multiwii_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv" NAME_WE)
 add_dependencies(multiwii_generate_messages_py _multiwii_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

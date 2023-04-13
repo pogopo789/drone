@@ -1,6 +1,6 @@
-devel_space: /home/thanhdat/drone/devel
+devel_space: /home/thanhdat/ws_drone/devel
 install: false
-install_space: /home/thanhdat/drone/install
+install_space: /home/thanhdat/ws_drone/install
 profile: default
-source_space: /home/thanhdat/drone/src
-workspace: /home/thanhdat/drone
+source_space: /home/thanhdat/ws_drone/src
+workspace: /home/thanhdat/ws_drone

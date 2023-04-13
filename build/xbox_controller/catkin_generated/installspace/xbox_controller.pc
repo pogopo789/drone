@@ -1,4 +1,4 @@
-prefix=/home/thanhdat/drone/install
+prefix=/home/thanhdat/ws_drone/install
 
 Name: xbox_controller
 Description: Description of xbox_controller

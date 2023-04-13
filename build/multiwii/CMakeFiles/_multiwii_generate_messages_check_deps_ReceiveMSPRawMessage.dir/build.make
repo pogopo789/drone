@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/multiwii
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/multiwii
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/multiwii
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/multiwii
 
 # Utility rule file for _multiwii_generate_messages_check_deps_ReceiveMSPRawMessage.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/thanhdat/drone/build/multiwii
 include CMakeFiles/_multiwii_generate_messages_check_deps_ReceiveMSPRawMessage.dir/progress.make
 
 CMakeFiles/_multiwii_generate_messages_check_deps_ReceiveMSPRawMessage:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py multiwii /home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv multiwii/MSPRawMessage
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py multiwii /home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv multiwii/MSPRawMessage
 
 _multiwii_generate_messages_check_deps_ReceiveMSPRawMessage: CMakeFiles/_multiwii_generate_messages_check_deps_ReceiveMSPRawMessage
 _multiwii_generate_messages_check_deps_ReceiveMSPRawMessage: CMakeFiles/_multiwii_generate_messages_check_deps_ReceiveMSPRawMessage.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_multiwii_generate_messages_check_deps_ReceiveMSPRawMessage.dir/clean
 .PHONY : CMakeFiles/_multiwii_generate_messages_check_deps_ReceiveMSPRawMessage.dir/clean
 
 CMakeFiles/_multiwii_generate_messages_check_deps_ReceiveMSPRawMessage.dir/depend:
-	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/_multiwii_generate_messages_check_deps_ReceiveMSPRawMessage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/ws_drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/ws_drone/src/multiwii /home/thanhdat/ws_drone/src/multiwii /home/thanhdat/ws_drone/build/multiwii /home/thanhdat/ws_drone/build/multiwii /home/thanhdat/ws_drone/build/multiwii/CMakeFiles/_multiwii_generate_messages_check_deps_ReceiveMSPRawMessage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_multiwii_generate_messages_check_deps_ReceiveMSPRawMessage.dir/depend
 

@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/thanhdat/drone/devel/.private/xbox_controller:$CMAKE_PREFIX_PATH"
-export PWD='/home/thanhdat/drone/build/xbox_controller'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/thanhdat/drone/devel/.private/xbox_controller/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/thanhdat/drone/src/xbox_controller:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/thanhdat/ws_drone/devel/.private/xbox_controller:$CMAKE_PREFIX_PATH"
+export PWD='/home/thanhdat/ws_drone/build/xbox_controller'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/thanhdat/ws_drone/devel/.private/xbox_controller/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/thanhdat/ws_drone/src/xbox_controller:$ROS_PACKAGE_PATH"

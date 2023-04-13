@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thanhdat/drone/src/xbox_controller/src/Map.cpp" "/home/thanhdat/drone/build/xbox_controller/CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o"
-  "/home/thanhdat/drone/src/xbox_controller/src/Xbox_controller_Node.cpp" "/home/thanhdat/drone/build/xbox_controller/CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o"
+  "/home/thanhdat/ws_drone/src/xbox_controller/src/Map.cpp" "/home/thanhdat/ws_drone/build/xbox_controller/CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o"
+  "/home/thanhdat/ws_drone/src/xbox_controller/src/Xbox_controller_Node.cpp" "/home/thanhdat/ws_drone/build/xbox_controller/CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,8 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/thanhdat/drone/devel/.private/xbox_controller/include"
-  "/home/thanhdat/drone/src/xbox_controller/include"
+  "/home/thanhdat/ws_drone/devel/.private/xbox_controller/include"
+  "/home/thanhdat/ws_drone/src/xbox_controller/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/multiwii
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/multiwii
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/multiwii
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/multiwii
 
 # Include any dependencies generated for this target.
 include CMakeFiles/multiwii_node.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/multiwii_node.dir/progress.make
 include CMakeFiles/multiwii_node.dir/flags.make
 
 CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: CMakeFiles/multiwii_node.dir/flags.make
-CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /home/thanhdat/drone/src/multiwii/src/multiwii_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o -c /home/thanhdat/drone/src/multiwii/src/multiwii_node.cpp
+CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /home/thanhdat/ws_drone/src/multiwii/src/multiwii_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thanhdat/ws_drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o -c /home/thanhdat/ws_drone/src/multiwii/src/multiwii_node.cpp
 
 CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thanhdat/drone/src/multiwii/src/multiwii_node.cpp > CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thanhdat/ws_drone/src/multiwii/src/multiwii_node.cpp > CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.i
 
 CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thanhdat/drone/src/multiwii/src/multiwii_node.cpp -o CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thanhdat/ws_drone/src/multiwii/src/multiwii_node.cpp -o CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.s
 
 # Object files for target multiwii_node
 multiwii_node_OBJECTS = \
@@ -77,37 +77,37 @@ multiwii_node_OBJECTS = \
 # External object files for target multiwii_node
 multiwii_node_EXTERNAL_OBJECTS =
 
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: CMakeFiles/multiwii_node.dir/build.make
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libtf.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libtf2_ros.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libactionlib.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libmessage_filters.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libroscpp.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libtf2.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/librosconsole.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/librostime.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node: CMakeFiles/multiwii_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node"
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: CMakeFiles/multiwii_node.dir/build.make
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libtf.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libtf2_ros.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libactionlib.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libmessage_filters.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libroscpp.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libtf2.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/librosconsole.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/librostime.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /opt/ros/noetic/lib/libcpp_common.so
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node: CMakeFiles/multiwii_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thanhdat/ws_drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multiwii_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/multiwii_node.dir/build: /home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node
+CMakeFiles/multiwii_node.dir/build: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node
 
 .PHONY : CMakeFiles/multiwii_node.dir/build
 
@@ -116,6 +116,6 @@ CMakeFiles/multiwii_node.dir/clean:
 .PHONY : CMakeFiles/multiwii_node.dir/clean
 
 CMakeFiles/multiwii_node.dir/depend:
-	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/multiwii_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/ws_drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/ws_drone/src/multiwii /home/thanhdat/ws_drone/src/multiwii /home/thanhdat/ws_drone/build/multiwii /home/thanhdat/ws_drone/build/multiwii /home/thanhdat/ws_drone/build/multiwii/CMakeFiles/multiwii_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/multiwii_node.dir/depend
 

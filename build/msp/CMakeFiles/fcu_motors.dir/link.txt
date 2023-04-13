@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/fcu_motors.dir/examples/fcu_motor_test.cpp.o  -o fcu_motors  -Wl,-rpath,/home/thanhdat/drone/build/msp libmsp_fcu.so libmspclient.so -lpthread 
+/usr/bin/c++     CMakeFiles/fcu_motors.dir/examples/fcu_motor_test.cpp.o  -o fcu_motors  -Wl,-rpath,/home/thanhdat/ws_drone/build/msp libmsp_fcu.so libmspclient.so -lpthread 

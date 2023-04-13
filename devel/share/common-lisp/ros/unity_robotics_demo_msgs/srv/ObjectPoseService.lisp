@@ -1,1 +1,1 @@
-/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/share/common-lisp/ros/unity_robotics_demo_msgs/srv/ObjectPoseService.lisp
+/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/share/common-lisp/ros/unity_robotics_demo_msgs/srv/ObjectPoseService.lisp

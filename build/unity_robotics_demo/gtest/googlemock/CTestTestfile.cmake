@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest/googlemock
-# Build directory: /home/thanhdat/drone/build/unity_robotics_demo/gtest/googlemock
+# Build directory: /home/thanhdat/ws_drone/build/unity_robotics_demo/gtest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -2,7 +2,7 @@
 
 message(STATUS "unity_robotics_demo_msgs: 3 messages, 2 services")
 
-set(MSG_I_FLAGS "-Iunity_robotics_demo_msgs:/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iunity_robotics_demo_msgs:/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,29 +17,29 @@ add_custom_target(unity_robotics_demo_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
 add_custom_target(_unity_robotics_demo_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg" "geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:geometry_msgs/Point:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg" "geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:geometry_msgs/Point:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
 add_custom_target(_unity_robotics_demo_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" ""
 )
 
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" NAME_WE)
 add_custom_target(_unity_robotics_demo_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" ""
 )
 
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
 add_custom_target(_unity_robotics_demo_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" "geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" "geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Pose"
 )
 
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
 add_custom_target(_unity_robotics_demo_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" "unity_robotics_demo_msgs/PosRot"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" "unity_robotics_demo_msgs/PosRot"
 )
 
 #
@@ -49,19 +49,19 @@ add_custom_target(_unity_robotics_demo_msgs_generate_messages_check_deps_${_file
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_cpp(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_cpp(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unity_robotics_demo_msgs
@@ -69,15 +69,15 @@ _generate_msg_cpp(unity_robotics_demo_msgs
 
 ### Generating Services
 _generate_srv_cpp(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_srv_cpp(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 
@@ -93,15 +93,15 @@ add_custom_target(unity_robotics_demo_msgs_generate_messages_cpp
 add_dependencies(unity_robotics_demo_msgs_generate_messages unity_robotics_demo_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_cpp _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_cpp _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_cpp _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_cpp _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_cpp _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -114,19 +114,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS unity_robotics_demo_msgs_generate_m
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_eus(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_eus(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unity_robotics_demo_msgs
@@ -134,15 +134,15 @@ _generate_msg_eus(unity_robotics_demo_msgs
 
 ### Generating Services
 _generate_srv_eus(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_srv_eus(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 
@@ -158,15 +158,15 @@ add_custom_target(unity_robotics_demo_msgs_generate_messages_eus
 add_dependencies(unity_robotics_demo_msgs_generate_messages unity_robotics_demo_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_eus _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_eus _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_eus _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_eus _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_eus _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -179,19 +179,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS unity_robotics_demo_msgs_generate_m
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_lisp(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_lisp(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unity_robotics_demo_msgs
@@ -199,15 +199,15 @@ _generate_msg_lisp(unity_robotics_demo_msgs
 
 ### Generating Services
 _generate_srv_lisp(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_srv_lisp(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 
@@ -223,15 +223,15 @@ add_custom_target(unity_robotics_demo_msgs_generate_messages_lisp
 add_dependencies(unity_robotics_demo_msgs_generate_messages unity_robotics_demo_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_lisp _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_lisp _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_lisp _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_lisp _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_lisp _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -244,19 +244,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS unity_robotics_demo_msgs_generate_m
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_nodejs(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_nodejs(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unity_robotics_demo_msgs
@@ -264,15 +264,15 @@ _generate_msg_nodejs(unity_robotics_demo_msgs
 
 ### Generating Services
 _generate_srv_nodejs(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_srv_nodejs(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 
@@ -288,15 +288,15 @@ add_custom_target(unity_robotics_demo_msgs_generate_messages_nodejs
 add_dependencies(unity_robotics_demo_msgs_generate_messages unity_robotics_demo_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_nodejs _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_nodejs _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_nodejs _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_nodejs _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_nodejs _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -309,19 +309,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS unity_robotics_demo_msgs_generate_m
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_py(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_py(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unity_robotics_demo_msgs
@@ -329,15 +329,15 @@ _generate_msg_py(unity_robotics_demo_msgs
 
 ### Generating Services
 _generate_srv_py(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_srv_py(unity_robotics_demo_msgs
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv"
   "${MSG_I_FLAGS}"
-  "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
+  "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 
@@ -353,15 +353,15 @@ add_custom_target(unity_robotics_demo_msgs_generate_messages_py
 add_dependencies(unity_robotics_demo_msgs_generate_messages unity_robotics_demo_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_py _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_py _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_py _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_py _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
+get_filename_component(_filename "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
 add_dependencies(unity_robotics_demo_msgs_generate_messages_py _unity_robotics_demo_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/thanhdat/drone/devel/.private/unity_robotics_demo/setup.sh
+    local-name: /home/thanhdat/ws_drone/devel/.private/unity_robotics_demo/setup.sh

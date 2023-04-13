@@ -1,1 +1,1 @@
-/home/thanhdat/drone/devel/.private/multiwii/share/multiwii/cmake/multiwiiConfig-version.cmake
+/home/thanhdat/ws_drone/devel/.private/multiwii/share/multiwii/cmake/multiwiiConfig-version.cmake

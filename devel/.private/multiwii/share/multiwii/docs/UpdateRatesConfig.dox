@@ -3,6 +3,7 @@
 Reads and maintains the following parameters on the ROS server
 
 - \b "~MSP_RAW_IMU" : \b [double] update rate of MSP_RAW_IMU min: 0.0, default: 100.0, max: 1000.0
+- \b "~MSP_RAW_GPS" : \b [double] update rate of MSP_RAW_GPS min: 0.0, default: 100.0, max: 1000.0
 - \b "~MSP_ATTITUDE" : \b [double] update rate of MSP_ATTITUDE min: 0.0, default: 100.0, max: 1000.0
 - \b "~MSP_ALTITUDE" : \b [double] update rate of MSP_ALTITUDE min: 0.0, default: 100.0, max: 1000.0
 - \b "~MSP_RC" : \b [double] update rate of MSP_RC min: 0.0, default: 10.0, max: 100.0

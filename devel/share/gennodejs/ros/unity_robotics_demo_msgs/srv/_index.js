@@ -1,1 +1,1 @@
-/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs/srv/_index.js
+/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs/srv/_index.js

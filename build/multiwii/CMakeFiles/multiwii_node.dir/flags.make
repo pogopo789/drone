@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++14
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"multiwii\"
 
-CXX_INCLUDES = -I/home/thanhdat/drone/devel/.private/multiwii/include -I/home/thanhdat/drone/devel/include -I/usr/include/eigen3 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/thanhdat/ws_drone/devel/.private/multiwii/include -I/home/thanhdat/ws_drone/devel/include -I/usr/include/eigen3 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

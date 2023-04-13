@@ -1,1 +1,1 @@
-/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/share/roseus/ros/unity_robotics_demo_msgs/manifest.l
+/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/share/roseus/ros/unity_robotics_demo_msgs/manifest.l

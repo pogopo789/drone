@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node"
-  "/home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node.pdb"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node.pdb"
   "CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o"
 )
 

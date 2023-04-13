@@ -1,0 +1,15 @@
+[  0%] Built target _multiwii_generate_messages_check_deps_SendMSPRawMessage
+[  0%] Built target _multiwii_generate_messages_check_deps_ReceiveMSPRawMessage
+[  4%] Built target multiwii_gencfg
+[  4%] Built target _multiwii_generate_messages_check_deps_MSPRawMessage
+[ 28%] Built target multiwii_generate_messages_py
+[ 42%] Built target multiwii_generate_messages_cpp
+[ 57%] Built target multiwii_generate_messages_nodejs
+[ 76%] Built target multiwii_generate_messages_eus
+[ 90%] Built target multiwii_generate_messages_lisp
+[ 90%] Built target multiwii_gencpp
+[35m[1mScanning dependencies of target multiwii_node[0m
+[ 90%] Built target multiwii_generate_messages
+[ 95%] [32mBuilding CXX object CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/thanhdat/ws_drone/devel/.private/multiwii/lib/multiwii/multiwii_node[0m
+[100%] Built target multiwii_node

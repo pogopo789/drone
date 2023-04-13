@@ -43,60 +43,60 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/multiwii
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/multiwii
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/multiwii
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/multiwii
 
 # Utility rule file for multiwii_generate_messages_py.
 
 # Include the progress variables for this target.
 include CMakeFiles/multiwii_generate_messages_py.dir/progress.make
 
-CMakeFiles/multiwii_generate_messages_py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py
-CMakeFiles/multiwii_generate_messages_py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py
-CMakeFiles/multiwii_generate_messages_py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py
-CMakeFiles/multiwii_generate_messages_py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py
-CMakeFiles/multiwii_generate_messages_py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py
+CMakeFiles/multiwii_generate_messages_py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py
+CMakeFiles/multiwii_generate_messages_py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py
+CMakeFiles/multiwii_generate_messages_py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py
+CMakeFiles/multiwii_generate_messages_py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py
+CMakeFiles/multiwii_generate_messages_py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py
 
 
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py: /home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG multiwii/MSPRawMessage"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py: /home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/ws_drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG multiwii/MSPRawMessage"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg -Imultiwii:/home/thanhdat/ws_drone/src/multiwii/msg -p multiwii -o /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg
 
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py: /home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py: /home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV multiwii/ReceiveMSPRawMessage"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py: /home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py: /home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/ws_drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV multiwii/ReceiveMSPRawMessage"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/thanhdat/ws_drone/src/multiwii/srv/ReceiveMSPRawMessage.srv -Imultiwii:/home/thanhdat/ws_drone/src/multiwii/msg -p multiwii -o /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv
 
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py: /home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py: /home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV multiwii/SendMSPRawMessage"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py: /home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py: /home/thanhdat/ws_drone/src/multiwii/msg/MSPRawMessage.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/ws_drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV multiwii/SendMSPRawMessage"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/thanhdat/ws_drone/src/multiwii/srv/SendMSPRawMessage.srv -Imultiwii:/home/thanhdat/ws_drone/src/multiwii/msg -p multiwii -o /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv
 
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for multiwii"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg --initpy
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/ws_drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for multiwii"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg --initpy
 
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py
-/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python srv __init__.py for multiwii"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv --initpy
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py
+/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/ws_drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python srv __init__.py for multiwii"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv --initpy
 
 multiwii_generate_messages_py: CMakeFiles/multiwii_generate_messages_py
-multiwii_generate_messages_py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py
-multiwii_generate_messages_py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py
-multiwii_generate_messages_py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py
-multiwii_generate_messages_py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py
-multiwii_generate_messages_py: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py
+multiwii_generate_messages_py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py
+multiwii_generate_messages_py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py
+multiwii_generate_messages_py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py
+multiwii_generate_messages_py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py
+multiwii_generate_messages_py: /home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py
 multiwii_generate_messages_py: CMakeFiles/multiwii_generate_messages_py.dir/build.make
 
 .PHONY : multiwii_generate_messages_py
@@ -111,6 +111,6 @@ CMakeFiles/multiwii_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/multiwii_generate_messages_py.dir/clean
 
 CMakeFiles/multiwii_generate_messages_py.dir/depend:
-	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/multiwii_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/ws_drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/ws_drone/src/multiwii /home/thanhdat/ws_drone/src/multiwii /home/thanhdat/ws_drone/build/multiwii /home/thanhdat/ws_drone/build/multiwii /home/thanhdat/ws_drone/build/multiwii/CMakeFiles/multiwii_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/multiwii_generate_messages_py.dir/depend
 

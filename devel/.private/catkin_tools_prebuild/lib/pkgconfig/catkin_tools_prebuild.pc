@@ -1,4 +1,4 @@
-prefix=/home/thanhdat/drone/devel/.private/catkin_tools_prebuild
+prefix=/home/thanhdat/ws_drone/devel/.private/catkin_tools_prebuild
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

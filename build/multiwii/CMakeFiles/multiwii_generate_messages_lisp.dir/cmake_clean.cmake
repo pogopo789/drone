@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/MSPRawMessage.lisp"
-  "/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/ReceiveMSPRawMessage.lisp"
-  "/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/SendMSPRawMessage.lisp"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/MSPRawMessage.lisp"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/ReceiveMSPRawMessage.lisp"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/SendMSPRawMessage.lisp"
   "CMakeFiles/multiwii_generate_messages_lisp"
 )
 

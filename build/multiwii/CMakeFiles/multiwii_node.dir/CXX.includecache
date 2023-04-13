@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/UpdateRatesConfig.h
+/home/thanhdat/ws_drone/devel/.private/multiwii/include/multiwii/UpdateRatesConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/thanhdat/drone/devel/include/msp/ByteVector.hpp
+/home/thanhdat/ws_drone/devel/include/msp/ByteVector.hpp
 cstdint
 -
 limits
@@ -36,9 +36,9 @@ type_traits
 vector
 -
 Value.hpp
-/home/thanhdat/drone/devel/include/msp/Value.hpp
+/home/thanhdat/ws_drone/devel/include/msp/Value.hpp
 
-/home/thanhdat/drone/devel/include/msp/Client.hpp
+/home/thanhdat/ws_drone/devel/include/msp/Client.hpp
 asio.hpp
 -
 condition_variable
@@ -54,33 +54,33 @@ string
 thread
 -
 ByteVector.hpp
-/home/thanhdat/drone/devel/include/msp/ByteVector.hpp
+/home/thanhdat/ws_drone/devel/include/msp/ByteVector.hpp
 FirmwareVariants.hpp
-/home/thanhdat/drone/devel/include/msp/FirmwareVariants.hpp
+/home/thanhdat/ws_drone/devel/include/msp/FirmwareVariants.hpp
 Message.hpp
-/home/thanhdat/drone/devel/include/msp/Message.hpp
+/home/thanhdat/ws_drone/devel/include/msp/Message.hpp
 Subscription.hpp
-/home/thanhdat/drone/devel/include/msp/Subscription.hpp
+/home/thanhdat/ws_drone/devel/include/msp/Subscription.hpp
 
-/home/thanhdat/drone/devel/include/msp/FirmwareVariants.hpp
+/home/thanhdat/ws_drone/devel/include/msp/FirmwareVariants.hpp
 map
 -
 string
 -
 
-/home/thanhdat/drone/devel/include/msp/FlightController.hpp
+/home/thanhdat/ws_drone/devel/include/msp/FlightController.hpp
 Client.hpp
-/home/thanhdat/drone/devel/include/msp/Client.hpp
+/home/thanhdat/ws_drone/devel/include/msp/Client.hpp
 FlightMode.hpp
-/home/thanhdat/drone/devel/include/msp/FlightMode.hpp
+/home/thanhdat/ws_drone/devel/include/msp/FlightMode.hpp
 PeriodicTimer.hpp
-/home/thanhdat/drone/devel/include/msp/PeriodicTimer.hpp
+/home/thanhdat/ws_drone/devel/include/msp/PeriodicTimer.hpp
 msp_msg.hpp
-/home/thanhdat/drone/devel/include/msp/msp_msg.hpp
+/home/thanhdat/ws_drone/devel/include/msp/msp_msg.hpp
 
-/home/thanhdat/drone/devel/include/msp/FlightMode.hpp
+/home/thanhdat/ws_drone/devel/include/msp/FlightMode.hpp
 
-/home/thanhdat/drone/devel/include/msp/Message.hpp
+/home/thanhdat/ws_drone/devel/include/msp/Message.hpp
 iostream
 -
 memory
@@ -90,11 +90,11 @@ string
 vector
 -
 ByteVector.hpp
-/home/thanhdat/drone/devel/include/msp/ByteVector.hpp
+/home/thanhdat/ws_drone/devel/include/msp/ByteVector.hpp
 FirmwareVariants.hpp
-/home/thanhdat/drone/devel/include/msp/FirmwareVariants.hpp
+/home/thanhdat/ws_drone/devel/include/msp/FirmwareVariants.hpp
 
-/home/thanhdat/drone/devel/include/msp/PeriodicTimer.hpp
+/home/thanhdat/ws_drone/devel/include/msp/PeriodicTimer.hpp
 atomic
 -
 chrono
@@ -108,23 +108,23 @@ mutex
 thread
 -
 
-/home/thanhdat/drone/devel/include/msp/Subscription.hpp
+/home/thanhdat/ws_drone/devel/include/msp/Subscription.hpp
 functional
 -
 Client.hpp
-/home/thanhdat/drone/devel/include/msp/Client.hpp
+/home/thanhdat/ws_drone/devel/include/msp/Client.hpp
 Message.hpp
-/home/thanhdat/drone/devel/include/msp/Message.hpp
+/home/thanhdat/ws_drone/devel/include/msp/Message.hpp
 PeriodicTimer.hpp
-/home/thanhdat/drone/devel/include/msp/PeriodicTimer.hpp
+/home/thanhdat/ws_drone/devel/include/msp/PeriodicTimer.hpp
 
-/home/thanhdat/drone/devel/include/msp/Value.hpp
+/home/thanhdat/ws_drone/devel/include/msp/Value.hpp
 iostream
 -
 utility
 -
 
-/home/thanhdat/drone/devel/include/msp/msp_msg.hpp
+/home/thanhdat/ws_drone/devel/include/msp/msp_msg.hpp
 array
 -
 cassert
@@ -142,9 +142,9 @@ string
 vector
 -
 Message.hpp
-/home/thanhdat/drone/devel/include/msp/Message.hpp
+/home/thanhdat/ws_drone/devel/include/msp/Message.hpp
 
-/home/thanhdat/drone/src/multiwii/src/multiwii_node.cpp
+/home/thanhdat/ws_drone/src/multiwii/src/multiwii_node.cpp
 ros/ros.h
 -
 dynamic_reconfigure/server.h
@@ -165,9 +165,13 @@ geometry_msgs/PoseStamped.h
 -
 geometry_msgs/Vector3.h
 -
+nav_msgs/Odometry.h
+-
 sensor_msgs/BatteryState.h
 -
 sensor_msgs/Imu.h
+-
+sensor_msgs/NavSatFix.h
 -
 sensor_msgs/MagneticField.h
 -
@@ -502,6 +506,24 @@ std_msgs/Header.h
 geometry_msgs/Pose.h
 -
 
+/opt/ros/noetic/include/geometry_msgs/PoseWithCovariance.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+geometry_msgs/Pose.h
+-
+
 /opt/ros/noetic/include/geometry_msgs/Quaternion.h
 string
 -
@@ -614,6 +636,24 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 std_msgs/Header.h
+-
+geometry_msgs/Twist.h
+-
+
+/opt/ros/noetic/include/geometry_msgs/TwistWithCovariance.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
 -
 geometry_msgs/Twist.h
 -
@@ -762,6 +802,28 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 std_msgs/Header.h
+-
+
+/opt/ros/noetic/include/nav_msgs/Odometry.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+geometry_msgs/PoseWithCovariance.h
+-
+geometry_msgs/TwistWithCovariance.h
 -
 
 /opt/ros/noetic/include/ros/advertise_options.h
@@ -1472,6 +1534,42 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 geometry_msgs/Vector3.h
+-
+
+/opt/ros/noetic/include/sensor_msgs/NavSatFix.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+sensor_msgs/NavSatStatus.h
+-
+
+/opt/ros/noetic/include/sensor_msgs/NavSatStatus.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
 -
 
 /opt/ros/noetic/include/std_msgs/Bool.h

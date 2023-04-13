@@ -1,0 +1,7 @@
+[01m[K/home/thanhdat/ws_drone/src/multiwii/src/multiwii_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/thanhdat/ws_drone/src/multiwii/src/multiwii_node.cpp:396:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsetDynamicConfigureCallback[m[K’ was not declared in this scope
+  396 |     [01;31m[KsetDynamicConfigureCallback[m[K();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/multiwii_node.dir/build.make:63: CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:224: CMakeFiles/multiwii_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

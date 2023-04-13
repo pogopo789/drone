@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/multiwii
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/multiwii
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/multiwii
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/multiwii
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/ws_drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/ws_drone/src/multiwii /home/thanhdat/ws_drone/src/multiwii /home/thanhdat/ws_drone/build/multiwii /home/thanhdat/ws_drone/build/multiwii /home/thanhdat/ws_drone/build/multiwii/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

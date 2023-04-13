@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/xbox_controller
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/xbox_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/xbox_controller
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/xbox_controller
 
 # Utility rule file for std_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_eus.dir/depend:
-	cd /home/thanhdat/drone/build/xbox_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/xbox_controller /home/thanhdat/drone/src/xbox_controller /home/thanhdat/drone/build/xbox_controller /home/thanhdat/drone/build/xbox_controller /home/thanhdat/drone/build/xbox_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/ws_drone/build/xbox_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/ws_drone/src/xbox_controller /home/thanhdat/ws_drone/src/xbox_controller /home/thanhdat/ws_drone/build/xbox_controller /home/thanhdat/ws_drone/build/xbox_controller /home/thanhdat/ws_drone/build/xbox_controller/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 

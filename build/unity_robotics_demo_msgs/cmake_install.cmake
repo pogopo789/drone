@@ -1,8 +1,8 @@
-# Install script for directory: /home/thanhdat/drone/src/unity_robotics_demo_msgs
+# Install script for directory: /home/thanhdat/ws_drone/src/unity_robotics_demo_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thanhdat/drone/install")
+  set(CMAKE_INSTALL_PREFIX "/home/thanhdat/ws_drone/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,150 +49,150 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thanhdat/drone/install/_setup_util.py")
+   "/home/thanhdat/ws_drone/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thanhdat/drone/install" TYPE PROGRAM FILES "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/thanhdat/ws_drone/install" TYPE PROGRAM FILES "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thanhdat/drone/install/env.sh")
+   "/home/thanhdat/ws_drone/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thanhdat/drone/install" TYPE PROGRAM FILES "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/thanhdat/ws_drone/install" TYPE PROGRAM FILES "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thanhdat/drone/install/setup.bash;/home/thanhdat/drone/install/local_setup.bash")
+   "/home/thanhdat/ws_drone/install/setup.bash;/home/thanhdat/ws_drone/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thanhdat/drone/install" TYPE FILE FILES
-    "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/setup.bash"
-    "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/thanhdat/ws_drone/install" TYPE FILE FILES
+    "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/setup.bash"
+    "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thanhdat/drone/install/setup.sh;/home/thanhdat/drone/install/local_setup.sh")
+   "/home/thanhdat/ws_drone/install/setup.sh;/home/thanhdat/ws_drone/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thanhdat/drone/install" TYPE FILE FILES
-    "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/setup.sh"
-    "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/thanhdat/ws_drone/install" TYPE FILE FILES
+    "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/setup.sh"
+    "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thanhdat/drone/install/setup.zsh;/home/thanhdat/drone/install/local_setup.zsh")
+   "/home/thanhdat/ws_drone/install/setup.zsh;/home/thanhdat/ws_drone/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thanhdat/drone/install" TYPE FILE FILES
-    "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/setup.zsh"
-    "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/thanhdat/ws_drone/install" TYPE FILE FILES
+    "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/setup.zsh"
+    "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thanhdat/drone/install/.rosinstall")
+   "/home/thanhdat/ws_drone/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thanhdat/drone/install" TYPE FILE FILES "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/thanhdat/ws_drone/install" TYPE FILE FILES "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unity_robotics_demo_msgs/msg" TYPE FILE FILES
-    "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
-    "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
-    "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg"
+    "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
+    "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/PosRot.msg"
+    "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/msg/UnityColor.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unity_robotics_demo_msgs/srv" TYPE FILE FILES
-    "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
-    "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv"
+    "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
+    "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/srv/PositionService.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unity_robotics_demo_msgs/cmake" TYPE FILE FILES "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/unity_robotics_demo_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unity_robotics_demo_msgs/cmake" TYPE FILE FILES "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/unity_robotics_demo_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/share/roseus/ros/unity_robotics_demo_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/share/roseus/ros/unity_robotics_demo_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/share/common-lisp/ros/unity_robotics_demo_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/share/common-lisp/ros/unity_robotics_demo_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/unity_robotics_demo_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/unity_robotics_demo_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unity_robotics_demo_msgs/cmake" TYPE FILE FILES "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/unity_robotics_demo_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unity_robotics_demo_msgs/cmake" TYPE FILE FILES "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/unity_robotics_demo_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unity_robotics_demo_msgs/cmake" TYPE FILE FILES
-    "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/unity_robotics_demo_msgsConfig.cmake"
-    "/home/thanhdat/drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/unity_robotics_demo_msgsConfig-version.cmake"
+    "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/unity_robotics_demo_msgsConfig.cmake"
+    "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/catkin_generated/installspace/unity_robotics_demo_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unity_robotics_demo_msgs" TYPE FILE FILES "/home/thanhdat/drone/src/unity_robotics_demo_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unity_robotics_demo_msgs" TYPE FILE FILES "/home/thanhdat/ws_drone/src/unity_robotics_demo_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/thanhdat/drone/build/unity_robotics_demo_msgs/gtest/cmake_install.cmake")
+  include("/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/gtest/cmake_install.cmake")
 
 endif()
 
@@ -204,5 +204,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/thanhdat/drone/build/unity_robotics_demo_msgs/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

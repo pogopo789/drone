@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py"
-  "/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py"
-  "/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py"
-  "/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py"
-  "/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py"
   "CMakeFiles/multiwii_generate_messages_py"
 )
 

@@ -1,1 +1,1 @@
-/home/thanhdat/drone/devel/.private/catkin_tools_prebuild/setup.bash
+/home/thanhdat/ws_drone/devel/.private/catkin_tools_prebuild/setup.bash

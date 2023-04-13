@@ -1,1 +1,1 @@
-/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/_package.lisp
+/home/thanhdat/ws_drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/_package.lisp

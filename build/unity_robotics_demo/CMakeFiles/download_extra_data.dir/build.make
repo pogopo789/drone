@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/unity_robotics_demo
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/unity_robotics_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/unity_robotics_demo
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/unity_robotics_demo
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/thanhdat/drone/build/unity_robotics_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/unity_robotics_demo /home/thanhdat/drone/src/unity_robotics_demo /home/thanhdat/drone/build/unity_robotics_demo /home/thanhdat/drone/build/unity_robotics_demo /home/thanhdat/drone/build/unity_robotics_demo/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/ws_drone/build/unity_robotics_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/ws_drone/src/unity_robotics_demo /home/thanhdat/ws_drone/src/unity_robotics_demo /home/thanhdat/ws_drone/build/unity_robotics_demo /home/thanhdat/ws_drone/build/unity_robotics_demo /home/thanhdat/ws_drone/build/unity_robotics_demo/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

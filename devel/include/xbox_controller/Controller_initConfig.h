@@ -1,1 +1,1 @@
-/home/thanhdat/drone/devel/.private/xbox_controller/include/xbox_controller/Controller_initConfig.h
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/include/xbox_controller/Controller_initConfig.h

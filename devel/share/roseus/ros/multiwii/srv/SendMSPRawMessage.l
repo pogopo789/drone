@@ -1,1 +1,1 @@
-/home/thanhdat/drone/devel/.private/multiwii/share/roseus/ros/multiwii/srv/SendMSPRawMessage.l
+/home/thanhdat/ws_drone/devel/.private/multiwii/share/roseus/ros/multiwii/srv/SendMSPRawMessage.l

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/drone/devel/.private/multiwii/share/roseus/ros/multiwii/manifest.l"
-  "/home/thanhdat/drone/devel/.private/multiwii/share/roseus/ros/multiwii/msg/MSPRawMessage.l"
-  "/home/thanhdat/drone/devel/.private/multiwii/share/roseus/ros/multiwii/srv/ReceiveMSPRawMessage.l"
-  "/home/thanhdat/drone/devel/.private/multiwii/share/roseus/ros/multiwii/srv/SendMSPRawMessage.l"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/roseus/ros/multiwii/manifest.l"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/roseus/ros/multiwii/msg/MSPRawMessage.l"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/roseus/ros/multiwii/srv/ReceiveMSPRawMessage.l"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/roseus/ros/multiwii/srv/SendMSPRawMessage.l"
   "CMakeFiles/multiwii_generate_messages_eus"
 )
 

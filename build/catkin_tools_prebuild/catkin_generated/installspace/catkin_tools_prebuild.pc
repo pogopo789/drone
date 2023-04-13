@@ -1,4 +1,4 @@
-prefix=/home/thanhdat/drone/install
+prefix=/home/thanhdat/ws_drone/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

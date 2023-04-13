@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/thanhdat/drone/src/msp/examples/client_read_test.cpp
+/home/thanhdat/ws_drone/src/msp/examples/client_read_test.cpp
 Client.hpp
 -
 iostream
@@ -14,7 +14,7 @@ iostream
 msp_msg.hpp
 -
 
-/home/thanhdat/drone/src/msp/inc/msp/ByteVector.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/ByteVector.hpp
 cstdint
 -
 limits
@@ -26,9 +26,9 @@ type_traits
 vector
 -
 Value.hpp
-/home/thanhdat/drone/src/msp/inc/msp/Value.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/Value.hpp
 
-/home/thanhdat/drone/src/msp/inc/msp/Client.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/Client.hpp
 asio.hpp
 -
 condition_variable
@@ -44,21 +44,21 @@ string
 thread
 -
 ByteVector.hpp
-/home/thanhdat/drone/src/msp/inc/msp/ByteVector.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/ByteVector.hpp
 FirmwareVariants.hpp
-/home/thanhdat/drone/src/msp/inc/msp/FirmwareVariants.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/FirmwareVariants.hpp
 Message.hpp
-/home/thanhdat/drone/src/msp/inc/msp/Message.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/Message.hpp
 Subscription.hpp
-/home/thanhdat/drone/src/msp/inc/msp/Subscription.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/Subscription.hpp
 
-/home/thanhdat/drone/src/msp/inc/msp/FirmwareVariants.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/FirmwareVariants.hpp
 map
 -
 string
 -
 
-/home/thanhdat/drone/src/msp/inc/msp/Message.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/Message.hpp
 iostream
 -
 memory
@@ -68,11 +68,11 @@ string
 vector
 -
 ByteVector.hpp
-/home/thanhdat/drone/src/msp/inc/msp/ByteVector.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/ByteVector.hpp
 FirmwareVariants.hpp
-/home/thanhdat/drone/src/msp/inc/msp/FirmwareVariants.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/FirmwareVariants.hpp
 
-/home/thanhdat/drone/src/msp/inc/msp/PeriodicTimer.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/PeriodicTimer.hpp
 atomic
 -
 chrono
@@ -86,23 +86,23 @@ mutex
 thread
 -
 
-/home/thanhdat/drone/src/msp/inc/msp/Subscription.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/Subscription.hpp
 functional
 -
 Client.hpp
-/home/thanhdat/drone/src/msp/inc/msp/Client.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/Client.hpp
 Message.hpp
-/home/thanhdat/drone/src/msp/inc/msp/Message.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/Message.hpp
 PeriodicTimer.hpp
-/home/thanhdat/drone/src/msp/inc/msp/PeriodicTimer.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/PeriodicTimer.hpp
 
-/home/thanhdat/drone/src/msp/inc/msp/Value.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/Value.hpp
 iostream
 -
 utility
 -
 
-/home/thanhdat/drone/src/msp/inc/msp/msp_msg.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/msp_msg.hpp
 array
 -
 cassert
@@ -120,5 +120,5 @@ string
 vector
 -
 Message.hpp
-/home/thanhdat/drone/src/msp/inc/msp/Message.hpp
+/home/thanhdat/ws_drone/src/msp/inc/msp/Message.hpp
 

@@ -265,6 +265,7 @@ class DEFAULT
         (*_i)->getValue(config, val);
 
         if("MSP_RAW_IMU"==(*_i)->name){MSP_RAW_IMU = boost::any_cast<double>(val);}
+        if("MSP_RAW_GPS"==(*_i)->name){MSP_RAW_GPS = boost::any_cast<double>(val);}
         if("MSP_ATTITUDE"==(*_i)->name){MSP_ATTITUDE = boost::any_cast<double>(val);}
         if("MSP_ALTITUDE"==(*_i)->name){MSP_ALTITUDE = boost::any_cast<double>(val);}
         if("MSP_RC"==(*_i)->name){MSP_RC = boost::any_cast<double>(val);}
@@ -278,6 +279,7 @@ class DEFAULT
     }
 
     double MSP_RAW_IMU;
+double MSP_RAW_GPS;
 double MSP_ATTITUDE;
 double MSP_ALTITUDE;
 double MSP_RC;
@@ -298,25 +300,27 @@ double MSP_SONAR_ALTITUDE;
 
 
 
-//#line 14 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 14 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       double MSP_RAW_IMU;
-//#line 15 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 15 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
+      double MSP_RAW_GPS;
+//#line 16 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       double MSP_ATTITUDE;
-//#line 16 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 17 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       double MSP_ALTITUDE;
-//#line 17 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 18 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       double MSP_RC;
-//#line 18 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 19 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       double MSP_SERVO;
-//#line 19 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 20 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       double MSP_MOTOR;
-//#line 20 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 21 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       double MSP_MISC;
-//#line 21 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 22 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       double MSP_ANALOG;
-//#line 22 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 23 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       double MSP_STATUS;
-//#line 23 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 24 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       double MSP_SONAR_ALTITUDE;
 //#line 231 "/opt/ros/noetic/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template"
 
@@ -457,105 +461,115 @@ double MSP_SONAR_ALTITUDE;
     {
 UpdateRatesConfig::GroupDescription<UpdateRatesConfig::DEFAULT, UpdateRatesConfig> Default("Default", "", 0, 0, true, &UpdateRatesConfig::groups);
 UpdateRatesConfig::GroupDescription<UpdateRatesConfig::DEFAULT::UPDATE_RATE_HZ, UpdateRatesConfig::DEFAULT> Update_Rate_Hz("Update_Rate_Hz", "", 0, 1, true, &UpdateRatesConfig::DEFAULT::update_rate_hz);
-//#line 14 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 14 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __min__.MSP_RAW_IMU = 0.0;
-//#line 14 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 14 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __max__.MSP_RAW_IMU = 1000.0;
-//#line 14 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 14 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __default__.MSP_RAW_IMU = 100.0;
-//#line 14 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 14 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       Update_Rate_Hz.abstract_parameters.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_RAW_IMU", "double", 0, "update rate of MSP_RAW_IMU", "", &UpdateRatesConfig::MSP_RAW_IMU)));
-//#line 14 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 14 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __param_descriptions__.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_RAW_IMU", "double", 0, "update rate of MSP_RAW_IMU", "", &UpdateRatesConfig::MSP_RAW_IMU)));
-//#line 15 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 15 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
+      __min__.MSP_RAW_GPS = 0.0;
+//#line 15 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
+      __max__.MSP_RAW_GPS = 1000.0;
+//#line 15 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
+      __default__.MSP_RAW_GPS = 100.0;
+//#line 15 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
+      Update_Rate_Hz.abstract_parameters.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_RAW_GPS", "double", 0, "update rate of MSP_RAW_GPS", "", &UpdateRatesConfig::MSP_RAW_GPS)));
+//#line 15 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
+      __param_descriptions__.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_RAW_GPS", "double", 0, "update rate of MSP_RAW_GPS", "", &UpdateRatesConfig::MSP_RAW_GPS)));
+//#line 16 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __min__.MSP_ATTITUDE = 0.0;
-//#line 15 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 16 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __max__.MSP_ATTITUDE = 1000.0;
-//#line 15 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 16 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __default__.MSP_ATTITUDE = 100.0;
-//#line 15 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 16 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       Update_Rate_Hz.abstract_parameters.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_ATTITUDE", "double", 0, "update rate of MSP_ATTITUDE", "", &UpdateRatesConfig::MSP_ATTITUDE)));
-//#line 15 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 16 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __param_descriptions__.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_ATTITUDE", "double", 0, "update rate of MSP_ATTITUDE", "", &UpdateRatesConfig::MSP_ATTITUDE)));
-//#line 16 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 17 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __min__.MSP_ALTITUDE = 0.0;
-//#line 16 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 17 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __max__.MSP_ALTITUDE = 1000.0;
-//#line 16 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 17 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __default__.MSP_ALTITUDE = 100.0;
-//#line 16 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 17 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       Update_Rate_Hz.abstract_parameters.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_ALTITUDE", "double", 0, "update rate of MSP_ALTITUDE", "", &UpdateRatesConfig::MSP_ALTITUDE)));
-//#line 16 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 17 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __param_descriptions__.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_ALTITUDE", "double", 0, "update rate of MSP_ALTITUDE", "", &UpdateRatesConfig::MSP_ALTITUDE)));
-//#line 17 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 18 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __min__.MSP_RC = 0.0;
-//#line 17 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 18 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __max__.MSP_RC = 100.0;
-//#line 17 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 18 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __default__.MSP_RC = 10.0;
-//#line 17 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 18 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       Update_Rate_Hz.abstract_parameters.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_RC", "double", 0, "update rate of MSP_RC", "", &UpdateRatesConfig::MSP_RC)));
-//#line 17 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 18 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __param_descriptions__.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_RC", "double", 0, "update rate of MSP_RC", "", &UpdateRatesConfig::MSP_RC)));
-//#line 18 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 19 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __min__.MSP_SERVO = 0.0;
-//#line 18 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 19 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __max__.MSP_SERVO = 100.0;
-//#line 18 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 19 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __default__.MSP_SERVO = 1.0;
-//#line 18 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 19 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       Update_Rate_Hz.abstract_parameters.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_SERVO", "double", 0, "update rate of MSP_SERVO", "", &UpdateRatesConfig::MSP_SERVO)));
-//#line 18 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 19 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __param_descriptions__.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_SERVO", "double", 0, "update rate of MSP_SERVO", "", &UpdateRatesConfig::MSP_SERVO)));
-//#line 19 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 20 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __min__.MSP_MOTOR = 0.0;
-//#line 19 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 20 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __max__.MSP_MOTOR = 1000.0;
-//#line 19 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 20 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __default__.MSP_MOTOR = 100.0;
-//#line 19 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 20 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       Update_Rate_Hz.abstract_parameters.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_MOTOR", "double", 0, "update rate of MSP_MOTOR", "", &UpdateRatesConfig::MSP_MOTOR)));
-//#line 19 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 20 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __param_descriptions__.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_MOTOR", "double", 0, "update rate of MSP_MOTOR", "", &UpdateRatesConfig::MSP_MOTOR)));
-//#line 20 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 21 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __min__.MSP_MISC = 0.0;
-//#line 20 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 21 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __max__.MSP_MISC = 100.0;
-//#line 20 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 21 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __default__.MSP_MISC = 1.0;
-//#line 20 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 21 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       Update_Rate_Hz.abstract_parameters.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_MISC", "double", 0, "update rate of MSP_MISC", "", &UpdateRatesConfig::MSP_MISC)));
-//#line 20 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 21 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __param_descriptions__.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_MISC", "double", 0, "update rate of MSP_MISC", "", &UpdateRatesConfig::MSP_MISC)));
-//#line 21 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 22 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __min__.MSP_ANALOG = 0.0;
-//#line 21 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 22 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __max__.MSP_ANALOG = 100.0;
-//#line 21 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 22 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __default__.MSP_ANALOG = 0.1;
-//#line 21 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 22 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       Update_Rate_Hz.abstract_parameters.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_ANALOG", "double", 0, "update rate of MSP_ANALOG", "", &UpdateRatesConfig::MSP_ANALOG)));
-//#line 21 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 22 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __param_descriptions__.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_ANALOG", "double", 0, "update rate of MSP_ANALOG", "", &UpdateRatesConfig::MSP_ANALOG)));
-//#line 22 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 23 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __min__.MSP_STATUS = 0.0;
-//#line 22 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 23 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __max__.MSP_STATUS = 1000.0;
-//#line 22 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 23 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __default__.MSP_STATUS = 100.0;
-//#line 22 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 23 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       Update_Rate_Hz.abstract_parameters.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_STATUS", "double", 0, "update rate of MSP_STATUS", "", &UpdateRatesConfig::MSP_STATUS)));
-//#line 22 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 23 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __param_descriptions__.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_STATUS", "double", 0, "update rate of MSP_STATUS", "", &UpdateRatesConfig::MSP_STATUS)));
-//#line 23 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 24 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __min__.MSP_SONAR_ALTITUDE = 0.0;
-//#line 23 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 24 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __max__.MSP_SONAR_ALTITUDE = 1000.0;
-//#line 23 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 24 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __default__.MSP_SONAR_ALTITUDE = 100.0;
-//#line 23 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 24 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       Update_Rate_Hz.abstract_parameters.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_SONAR_ALTITUDE", "double", 0, "update rate of MSP_SONAR_ALTITUDE", "", &UpdateRatesConfig::MSP_SONAR_ALTITUDE)));
-//#line 23 "/home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg"
+//#line 24 "/home/thanhdat/ws_drone/src/multiwii/cfg/UpdateRates.cfg"
       __param_descriptions__.push_back(UpdateRatesConfig::AbstractParamDescriptionConstPtr(new UpdateRatesConfig::ParamDescription<double>("MSP_SONAR_ALTITUDE", "double", 0, "update rate of MSP_SONAR_ALTITUDE", "", &UpdateRatesConfig::MSP_SONAR_ALTITUDE)));
 //#line 124 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Update_Rate_Hz.convertParams();

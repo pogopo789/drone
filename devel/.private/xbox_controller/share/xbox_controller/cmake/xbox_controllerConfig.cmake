@@ -67,14 +67,14 @@ set(xbox_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(xbox_controller_SOURCE_PREFIX /home/thanhdat/drone/src/xbox_controller)
-  set(xbox_controller_DEVEL_PREFIX /home/thanhdat/drone/devel/.private/xbox_controller)
+  set(xbox_controller_SOURCE_PREFIX /home/thanhdat/ws_drone/src/xbox_controller)
+  set(xbox_controller_DEVEL_PREFIX /home/thanhdat/ws_drone/devel/.private/xbox_controller)
   set(xbox_controller_INSTALL_PREFIX "")
   set(xbox_controller_PREFIX ${xbox_controller_DEVEL_PREFIX})
 else()
   set(xbox_controller_SOURCE_PREFIX "")
   set(xbox_controller_DEVEL_PREFIX "")
-  set(xbox_controller_INSTALL_PREFIX /home/thanhdat/drone/install)
+  set(xbox_controller_INSTALL_PREFIX /home/thanhdat/ws_drone/install)
   set(xbox_controller_PREFIX ${xbox_controller_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(xbox_controller_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/thanhdat/drone/devel/.private/xbox_controller/include;/home/thanhdat/drone/src/xbox_controller/include " STREQUAL " ")
+if(NOT "/home/thanhdat/ws_drone/devel/.private/xbox_controller/include;/home/thanhdat/ws_drone/src/xbox_controller/include " STREQUAL " ")
   set(xbox_controller_INCLUDE_DIRS "")
-  set(_include_dirs "/home/thanhdat/drone/devel/.private/xbox_controller/include;/home/thanhdat/drone/src/xbox_controller/include")
+  set(_include_dirs "/home/thanhdat/ws_drone/devel/.private/xbox_controller/include;/home/thanhdat/ws_drone/src/xbox_controller/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/thanhdat/drone/devel/.private/xbox_controller/include;/home/thanhd
         message(FATAL_ERROR "Project 'xbox_controller' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'xbox_controller' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/thanhdat/drone/src/xbox_controller/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'xbox_controller' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/thanhdat/ws_drone/src/xbox_controller/${idir}'.  ${_report}")
     endif()
     _list_append_unique(xbox_controller_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/thanhdat/drone/devel/.private/xbox_controller/lib;/home/thanhdat/drone/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/thanhdat/ws_drone/devel/.private/xbox_controller/lib;/home/thanhdat/ws_drone/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

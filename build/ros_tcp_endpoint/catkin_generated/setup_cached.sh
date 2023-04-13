@@ -7,9 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/thanhdat/drone/devel/.private/ros_tcp_endpoint:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/thanhdat/drone/devel/.private/ros_tcp_endpoint/lib:$LD_LIBRARY_PATH"
-export PWD='/home/thanhdat/drone/build/ros_tcp_endpoint'
-export PYTHONPATH="/home/thanhdat/drone/devel/.private/ros_tcp_endpoint/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/thanhdat/drone/devel/.private/ros_tcp_endpoint/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/thanhdat/drone/src/ROS-TCP-Endpoint-main:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/thanhdat/ws_drone/devel/.private/ros_tcp_endpoint:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/thanhdat/ws_drone/devel/.private/ros_tcp_endpoint/lib:$LD_LIBRARY_PATH"
+export PWD='/home/thanhdat/ws_drone/build/ros_tcp_endpoint'
+export PYTHONPATH="/home/thanhdat/ws_drone/devel/.private/ros_tcp_endpoint/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/thanhdat/ws_drone/devel/.private/ros_tcp_endpoint/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/thanhdat/ws_drone/src/ROS-TCP-Endpoint-main:$ROS_PACKAGE_PATH"

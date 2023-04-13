@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/thanhdat/ws_drone/devel/.private/robot_position/setup.sh

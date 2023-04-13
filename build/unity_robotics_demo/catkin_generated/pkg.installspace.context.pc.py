@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "ros_tcp_endpoint;message_runtime".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "unity_robotics_demo"
-PROJECT_SPACE_DIR = "/home/thanhdat/drone/install"
+PROJECT_SPACE_DIR = "/home/thanhdat/ws_drone/install"
 PROJECT_VERSION = "0.0.0"

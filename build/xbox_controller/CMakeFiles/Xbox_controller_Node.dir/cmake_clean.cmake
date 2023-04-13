@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node"
-  "/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node.pdb"
+  "/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node"
+  "/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node.pdb"
   "CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o"
   "CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o"
 )

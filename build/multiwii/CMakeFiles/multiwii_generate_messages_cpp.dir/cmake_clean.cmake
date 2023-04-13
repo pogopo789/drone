@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/MSPRawMessage.h"
-  "/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/ReceiveMSPRawMessage.h"
-  "/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/SendMSPRawMessage.h"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/include/multiwii/MSPRawMessage.h"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/include/multiwii/ReceiveMSPRawMessage.h"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/include/multiwii/SendMSPRawMessage.h"
   "CMakeFiles/multiwii_generate_messages_cpp"
 )
 

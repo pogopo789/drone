@@ -13,9 +13,9 @@ Not searching for unused variables given on the command line.
 [36m--[0m Detecting CXX compiler ABI info - done
 [36m--[0m Detecting CXX compile features
 [36m--[0m Detecting CXX compile features - done
-[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/thanhdat/drone/devel/.private/unity_robotics_demo
-[36m--[0m Using CMAKE_PREFIX_PATH: /home/thanhdat/drone/devel;/opt/ros/noetic
-[36m--[0m This workspace overlays: /home/thanhdat/drone/devel;/opt/ros/noetic
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/thanhdat/ws_drone/devel/.private/unity_robotics_demo
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/thanhdat/ws_drone/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/thanhdat/ws_drone/devel;/opt/ros/noetic
 [36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
 [36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
 [36m--[0m Using Debian Python package layout
@@ -23,7 +23,7 @@ Not searching for unused variables given on the command line.
 [36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
 [36m--[0m Using CATKIN_ENABLE_TESTING: ON
 [36m--[0m Call enable_testing()
-[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/thanhdat/drone/build/unity_robotics_demo/test_results
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/thanhdat/ws_drone/build/unity_robotics_demo/test_results
 [36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
 [36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
 [36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
@@ -33,8 +33,8 @@ Not searching for unused variables given on the command line.
 [36m--[0m catkin 0.8.10
 [36m--[0m BUILD_SHARED_LIBS is on
 [36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
-[36m--[0m Installing devel-space wrapper /home/thanhdat/drone/src/unity_robotics_demo/scripts/position_service.py to /home/thanhdat/drone/devel/.private/unity_robotics_demo/lib/unity_robotics_demo
-[36m--[0m Installing devel-space wrapper /home/thanhdat/drone/src/unity_robotics_demo/scripts/color_publisher.py to /home/thanhdat/drone/devel/.private/unity_robotics_demo/lib/unity_robotics_demo
+[36m--[0m Installing devel-space wrapper /home/thanhdat/ws_drone/src/unity_robotics_demo/scripts/position_service.py to /home/thanhdat/ws_drone/devel/.private/unity_robotics_demo/lib/unity_robotics_demo
+[36m--[0m Installing devel-space wrapper /home/thanhdat/ws_drone/src/unity_robotics_demo/scripts/color_publisher.py to /home/thanhdat/ws_drone/devel/.private/unity_robotics_demo/lib/unity_robotics_demo
 [36m--[0m Configuring done
 [36m--[0m Generating done
-[36m--[0m Build files have been written to: /home/thanhdat/drone/build/unity_robotics_demo
+[36m--[0m Build files have been written to: /home/thanhdat/ws_drone/build/unity_robotics_demo

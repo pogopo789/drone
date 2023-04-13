@@ -1,4 +1,4 @@
-prefix=/home/thanhdat/drone/devel/.private/unity_robotics_demo
+prefix=/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo
 
 Name: unity_robotics_demo
 Description: Description of unity_robotics_demo

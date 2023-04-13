@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "message_runtime".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "ros_tcp_endpoint"
-PROJECT_SPACE_DIR = "/home/thanhdat/drone/devel/.private/ros_tcp_endpoint"
+PROJECT_SPACE_DIR = "/home/thanhdat/ws_drone/devel/.private/ros_tcp_endpoint"
 PROJECT_VERSION = "0.7.0"

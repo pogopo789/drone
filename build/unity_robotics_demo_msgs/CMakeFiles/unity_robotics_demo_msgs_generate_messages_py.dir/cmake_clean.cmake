@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/msg/_PosRot.py"
-  "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/msg/_Pose.py"
-  "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/msg/_UnityColor.py"
-  "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/msg/__init__.py"
-  "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/srv/_ObjectPoseService.py"
-  "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/srv/_PositionService.py"
-  "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/srv/__init__.py"
+  "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/msg/_PosRot.py"
+  "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/msg/_Pose.py"
+  "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/msg/_UnityColor.py"
+  "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/msg/__init__.py"
+  "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/srv/_ObjectPoseService.py"
+  "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/srv/_PositionService.py"
+  "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/lib/python3/dist-packages/unity_robotics_demo_msgs/srv/__init__.py"
   "CMakeFiles/unity_robotics_demo_msgs_generate_messages_py"
 )
 

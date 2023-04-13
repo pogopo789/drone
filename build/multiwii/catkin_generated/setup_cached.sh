@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/thanhdat/drone/devel/.private/multiwii:$CMAKE_PREFIX_PATH"
-export PWD='/home/thanhdat/drone/build/multiwii'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/thanhdat/drone/src/multiwii:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/thanhdat/ws_drone/devel/.private/multiwii:$CMAKE_PREFIX_PATH"
+export PWD='/home/thanhdat/ws_drone/build/multiwii'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/thanhdat/ws_drone/devel/.private/multiwii/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/thanhdat/ws_drone/src/multiwii:$ROS_PACKAGE_PATH"

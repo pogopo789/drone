@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/xbox_controller
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/xbox_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/xbox_controller
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/xbox_controller
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Xbox_controller_Node.dir/depend.make
@@ -58,30 +58,30 @@ include CMakeFiles/Xbox_controller_Node.dir/progress.make
 include CMakeFiles/Xbox_controller_Node.dir/flags.make
 
 CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o: CMakeFiles/Xbox_controller_Node.dir/flags.make
-CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o: /home/thanhdat/drone/src/xbox_controller/src/Xbox_controller_Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thanhdat/drone/build/xbox_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o -c /home/thanhdat/drone/src/xbox_controller/src/Xbox_controller_Node.cpp
+CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o: /home/thanhdat/ws_drone/src/xbox_controller/src/Xbox_controller_Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thanhdat/ws_drone/build/xbox_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o -c /home/thanhdat/ws_drone/src/xbox_controller/src/Xbox_controller_Node.cpp
 
 CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thanhdat/drone/src/xbox_controller/src/Xbox_controller_Node.cpp > CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thanhdat/ws_drone/src/xbox_controller/src/Xbox_controller_Node.cpp > CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.i
 
 CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thanhdat/drone/src/xbox_controller/src/Xbox_controller_Node.cpp -o CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thanhdat/ws_drone/src/xbox_controller/src/Xbox_controller_Node.cpp -o CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.s
 
 CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o: CMakeFiles/Xbox_controller_Node.dir/flags.make
-CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o: /home/thanhdat/drone/src/xbox_controller/src/Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thanhdat/drone/build/xbox_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o -c /home/thanhdat/drone/src/xbox_controller/src/Map.cpp
+CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o: /home/thanhdat/ws_drone/src/xbox_controller/src/Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thanhdat/ws_drone/build/xbox_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o -c /home/thanhdat/ws_drone/src/xbox_controller/src/Map.cpp
 
 CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thanhdat/drone/src/xbox_controller/src/Map.cpp > CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thanhdat/ws_drone/src/xbox_controller/src/Map.cpp > CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.i
 
 CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thanhdat/drone/src/xbox_controller/src/Map.cpp -o CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thanhdat/ws_drone/src/xbox_controller/src/Map.cpp -o CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.s
 
 # Object files for target Xbox_controller_Node
 Xbox_controller_Node_OBJECTS = \
@@ -91,33 +91,33 @@ Xbox_controller_Node_OBJECTS = \
 # External object files for target Xbox_controller_Node
 Xbox_controller_Node_EXTERNAL_OBJECTS =
 
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: CMakeFiles/Xbox_controller_Node.dir/build.make
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/libroscpp.so
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/librosconsole.so
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/librostime.so
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/libcpp_common.so
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: CMakeFiles/Xbox_controller_Node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thanhdat/drone/build/xbox_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node"
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: CMakeFiles/Xbox_controller_Node.dir/build.make
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/libroscpp.so
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/librosconsole.so
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/librostime.so
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /opt/ros/noetic/lib/libcpp_common.so
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node: CMakeFiles/Xbox_controller_Node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thanhdat/ws_drone/build/xbox_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Xbox_controller_Node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Xbox_controller_Node.dir/build: /home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node
+CMakeFiles/Xbox_controller_Node.dir/build: /home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node
 
 .PHONY : CMakeFiles/Xbox_controller_Node.dir/build
 
@@ -126,6 +126,6 @@ CMakeFiles/Xbox_controller_Node.dir/clean:
 .PHONY : CMakeFiles/Xbox_controller_Node.dir/clean
 
 CMakeFiles/Xbox_controller_Node.dir/depend:
-	cd /home/thanhdat/drone/build/xbox_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/xbox_controller /home/thanhdat/drone/src/xbox_controller /home/thanhdat/drone/build/xbox_controller /home/thanhdat/drone/build/xbox_controller /home/thanhdat/drone/build/xbox_controller/CMakeFiles/Xbox_controller_Node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/ws_drone/build/xbox_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/ws_drone/src/xbox_controller /home/thanhdat/ws_drone/src/xbox_controller /home/thanhdat/ws_drone/build/xbox_controller /home/thanhdat/ws_drone/build/xbox_controller /home/thanhdat/ws_drone/build/xbox_controller/CMakeFiles/Xbox_controller_Node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Xbox_controller_Node.dir/depend
 

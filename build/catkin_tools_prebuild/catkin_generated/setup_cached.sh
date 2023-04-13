@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/thanhdat/drone/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export PWD='/home/thanhdat/drone/build/catkin_tools_prebuild'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/thanhdat/drone/devel/.private/catkin_tools_prebuild/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/thanhdat/drone/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/thanhdat/ws_drone/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export PWD='/home/thanhdat/ws_drone/build/catkin_tools_prebuild'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/thanhdat/ws_drone/devel/.private/catkin_tools_prebuild/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/thanhdat/ws_drone/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

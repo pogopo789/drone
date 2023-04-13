@@ -1,4 +1,4 @@
-prefix=/home/thanhdat/drone/install
+prefix=/home/thanhdat/ws_drone/install
 
 Name: unity_robotics_demo
 Description: Description of unity_robotics_demo

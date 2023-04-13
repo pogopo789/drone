@@ -1,1 +1,1 @@
-/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/MSPRawMessage.lisp
+/home/thanhdat/ws_drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/MSPRawMessage.lisp

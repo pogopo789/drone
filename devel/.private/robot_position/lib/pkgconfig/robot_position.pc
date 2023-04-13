@@ -1,0 +1,8 @@
+prefix=/home/thanhdat/ws_drone/devel/.private/robot_position
+
+Name: robot_position
+Description: Description of robot_position
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

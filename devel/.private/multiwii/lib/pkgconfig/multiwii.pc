@@ -1,8 +1,8 @@
-prefix=/home/thanhdat/drone/devel/.private/multiwii
+prefix=/home/thanhdat/ws_drone/devel/.private/multiwii
 
 Name: multiwii
 Description: Description of multiwii
 Version: 2.1.0
-Cflags: -I/home/thanhdat/drone/devel/.private/multiwii/include
+Cflags: -I/home/thanhdat/ws_drone/devel/.private/multiwii/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime

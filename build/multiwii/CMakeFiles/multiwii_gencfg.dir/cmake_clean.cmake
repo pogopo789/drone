@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/UpdateRatesConfig.h"
-  "/home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/cfg/UpdateRatesConfig.py"
-  "/home/thanhdat/drone/devel/.private/multiwii/share/multiwii/docs/UpdateRatesConfig-usage.dox"
-  "/home/thanhdat/drone/devel/.private/multiwii/share/multiwii/docs/UpdateRatesConfig.dox"
-  "/home/thanhdat/drone/devel/.private/multiwii/share/multiwii/docs/UpdateRatesConfig.wikidoc"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/include/multiwii/UpdateRatesConfig.h"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/cfg/UpdateRatesConfig.py"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/multiwii/docs/UpdateRatesConfig-usage.dox"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/multiwii/docs/UpdateRatesConfig.dox"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/multiwii/docs/UpdateRatesConfig.wikidoc"
   "CMakeFiles/multiwii_gencfg"
 )
 

@@ -1,1 +1,1 @@
-/home/thanhdat/drone/devel/.private/unity_robotics_demo/lib/pkgconfig/unity_robotics_demo.pc
+/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo/lib/pkgconfig/unity_robotics_demo.pc

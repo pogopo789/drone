@@ -1,1 +1,1 @@
-/home/thanhdat/drone/devel/.private/multiwii/share/multiwii/cmake/multiwii-msg-paths.cmake
+/home/thanhdat/ws_drone/devel/.private/multiwii/share/multiwii/cmake/multiwii-msg-paths.cmake

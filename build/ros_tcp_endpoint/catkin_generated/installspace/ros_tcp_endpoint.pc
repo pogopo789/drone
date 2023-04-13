@@ -1,4 +1,4 @@
-prefix=/home/thanhdat/drone/install
+prefix=/home/thanhdat/ws_drone/install
 
 Name: ros_tcp_endpoint
 Description: Description of ros_tcp_endpoint

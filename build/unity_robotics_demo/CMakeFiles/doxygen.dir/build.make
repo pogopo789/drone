@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/unity_robotics_demo
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/unity_robotics_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/unity_robotics_demo
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/unity_robotics_demo
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/thanhdat/drone/build/unity_robotics_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/unity_robotics_demo /home/thanhdat/drone/src/unity_robotics_demo /home/thanhdat/drone/build/unity_robotics_demo /home/thanhdat/drone/build/unity_robotics_demo /home/thanhdat/drone/build/unity_robotics_demo/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/ws_drone/build/unity_robotics_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/ws_drone/src/unity_robotics_demo /home/thanhdat/ws_drone/src/unity_robotics_demo /home/thanhdat/ws_drone/build/unity_robotics_demo /home/thanhdat/ws_drone/build/unity_robotics_demo /home/thanhdat/ws_drone/build/unity_robotics_demo/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

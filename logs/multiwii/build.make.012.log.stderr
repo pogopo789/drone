@@ -1,0 +1,7 @@
+[01m[K/home/thanhdat/ws_drone/src/multiwii/src/multiwii_node.cpp:[m[K In member function ‘[01m[Kvoid MultiWiiNode::onGPS(const msp::msg::RawGPS&)[m[K’:
+[01m[K/home/thanhdat/ws_drone/src/multiwii/src/multiwii_node.cpp:256:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs::NavSatFix_<std::allocator<void> >::_header_type[m[K’ {aka ‘[01m[Kstruct std_msgs::Header_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstatus[m[K’
+  256 |         gps_msg.header.[01;31m[Kstatus[m[K = gps.fix;
+      |                        [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/multiwii_node.dir/build.make:63: CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:224: CMakeFiles/multiwii_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

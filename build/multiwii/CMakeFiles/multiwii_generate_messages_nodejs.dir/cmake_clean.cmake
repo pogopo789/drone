@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/drone/devel/.private/multiwii/share/gennodejs/ros/multiwii/msg/MSPRawMessage.js"
-  "/home/thanhdat/drone/devel/.private/multiwii/share/gennodejs/ros/multiwii/srv/ReceiveMSPRawMessage.js"
-  "/home/thanhdat/drone/devel/.private/multiwii/share/gennodejs/ros/multiwii/srv/SendMSPRawMessage.js"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/gennodejs/ros/multiwii/msg/MSPRawMessage.js"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/gennodejs/ros/multiwii/srv/ReceiveMSPRawMessage.js"
+  "/home/thanhdat/ws_drone/devel/.private/multiwii/share/gennodejs/ros/multiwii/srv/SendMSPRawMessage.js"
   "CMakeFiles/multiwii_generate_messages_nodejs"
 )
 

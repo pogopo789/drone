@@ -1,4 +1,4 @@
-prefix=/home/thanhdat/drone/devel/.private/ros_tcp_endpoint
+prefix=/home/thanhdat/ws_drone/devel/.private/ros_tcp_endpoint
 
 Name: ros_tcp_endpoint
 Description: Description of ros_tcp_endpoint

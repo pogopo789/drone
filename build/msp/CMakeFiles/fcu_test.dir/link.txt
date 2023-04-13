@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/fcu_test.dir/examples/fcu_test.cpp.o  -o fcu_test  -Wl,-rpath,/home/thanhdat/drone/build/msp libmsp_fcu.so libmspclient.so -lpthread 
+/usr/bin/c++     CMakeFiles/fcu_test.dir/examples/fcu_test.cpp.o  -o fcu_test  -Wl,-rpath,/home/thanhdat/ws_drone/build/msp libmsp_fcu.so libmspclient.so -lpthread 

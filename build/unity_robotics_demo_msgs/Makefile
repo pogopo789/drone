@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/unity_robotics_demo_msgs
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/unity_robotics_demo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/unity_robotics_demo_msgs
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thanhdat/drone/build/unity_robotics_demo_msgs/CMakeFiles /home/thanhdat/drone/build/unity_robotics_demo_msgs/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/CMakeFiles /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thanhdat/drone/build/unity_robotics_demo_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

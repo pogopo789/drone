@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/unity_robotics_demo_msgs
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/unity_robotics_demo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/unity_robotics_demo_msgs
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/thanhdat/drone/build/unity_robotics_demo_msgs
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/thanhdat/drone/build/unity_robotics_demo_msgs/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/thanhdat/drone/build/unity_robotics_demo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/unity_robotics_demo_msgs /home/thanhdat/drone/src/unity_robotics_demo_msgs /home/thanhdat/drone/build/unity_robotics_demo_msgs /home/thanhdat/drone/build/unity_robotics_demo_msgs /home/thanhdat/drone/build/unity_robotics_demo_msgs/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/ws_drone/src/unity_robotics_demo_msgs /home/thanhdat/ws_drone/src/unity_robotics_demo_msgs /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

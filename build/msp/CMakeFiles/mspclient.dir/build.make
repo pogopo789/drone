@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/msp
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/msp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/msp
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/msp
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mspclient.dir/depend.make
@@ -58,30 +58,30 @@ include CMakeFiles/mspclient.dir/progress.make
 include CMakeFiles/mspclient.dir/flags.make
 
 CMakeFiles/mspclient.dir/src/Client.cpp.o: CMakeFiles/mspclient.dir/flags.make
-CMakeFiles/mspclient.dir/src/Client.cpp.o: /home/thanhdat/drone/src/msp/src/Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thanhdat/drone/build/msp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mspclient.dir/src/Client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mspclient.dir/src/Client.cpp.o -c /home/thanhdat/drone/src/msp/src/Client.cpp
+CMakeFiles/mspclient.dir/src/Client.cpp.o: /home/thanhdat/ws_drone/src/msp/src/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thanhdat/ws_drone/build/msp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mspclient.dir/src/Client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mspclient.dir/src/Client.cpp.o -c /home/thanhdat/ws_drone/src/msp/src/Client.cpp
 
 CMakeFiles/mspclient.dir/src/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mspclient.dir/src/Client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thanhdat/drone/src/msp/src/Client.cpp > CMakeFiles/mspclient.dir/src/Client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thanhdat/ws_drone/src/msp/src/Client.cpp > CMakeFiles/mspclient.dir/src/Client.cpp.i
 
 CMakeFiles/mspclient.dir/src/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mspclient.dir/src/Client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thanhdat/drone/src/msp/src/Client.cpp -o CMakeFiles/mspclient.dir/src/Client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thanhdat/ws_drone/src/msp/src/Client.cpp -o CMakeFiles/mspclient.dir/src/Client.cpp.s
 
 CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.o: CMakeFiles/mspclient.dir/flags.make
-CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.o: /home/thanhdat/drone/src/msp/src/PeriodicTimer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thanhdat/drone/build/msp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.o -c /home/thanhdat/drone/src/msp/src/PeriodicTimer.cpp
+CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.o: /home/thanhdat/ws_drone/src/msp/src/PeriodicTimer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thanhdat/ws_drone/build/msp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.o -c /home/thanhdat/ws_drone/src/msp/src/PeriodicTimer.cpp
 
 CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thanhdat/drone/src/msp/src/PeriodicTimer.cpp > CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thanhdat/ws_drone/src/msp/src/PeriodicTimer.cpp > CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.i
 
 CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thanhdat/drone/src/msp/src/PeriodicTimer.cpp -o CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thanhdat/ws_drone/src/msp/src/PeriodicTimer.cpp -o CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.s
 
 # Object files for target mspclient
 mspclient_OBJECTS = \
@@ -95,7 +95,7 @@ libmspclient.so: CMakeFiles/mspclient.dir/src/Client.cpp.o
 libmspclient.so: CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.o
 libmspclient.so: CMakeFiles/mspclient.dir/build.make
 libmspclient.so: CMakeFiles/mspclient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thanhdat/drone/build/msp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libmspclient.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thanhdat/ws_drone/build/msp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libmspclient.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mspclient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/mspclient.dir/clean:
 .PHONY : CMakeFiles/mspclient.dir/clean
 
 CMakeFiles/mspclient.dir/depend:
-	cd /home/thanhdat/drone/build/msp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/msp /home/thanhdat/drone/src/msp /home/thanhdat/drone/build/msp /home/thanhdat/drone/build/msp /home/thanhdat/drone/build/msp/CMakeFiles/mspclient.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/ws_drone/build/msp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/ws_drone/src/msp /home/thanhdat/ws_drone/src/msp /home/thanhdat/ws_drone/build/msp /home/thanhdat/ws_drone/build/msp /home/thanhdat/ws_drone/build/msp/CMakeFiles/mspclient.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mspclient.dir/depend
 

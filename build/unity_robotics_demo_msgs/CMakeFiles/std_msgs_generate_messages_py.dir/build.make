@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/unity_robotics_demo_msgs
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/unity_robotics_demo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/unity_robotics_demo_msgs
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs
 
 # Utility rule file for std_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_py.dir/depend:
-	cd /home/thanhdat/drone/build/unity_robotics_demo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/unity_robotics_demo_msgs /home/thanhdat/drone/src/unity_robotics_demo_msgs /home/thanhdat/drone/build/unity_robotics_demo_msgs /home/thanhdat/drone/build/unity_robotics_demo_msgs /home/thanhdat/drone/build/unity_robotics_demo_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/ws_drone/src/unity_robotics_demo_msgs /home/thanhdat/ws_drone/src/unity_robotics_demo_msgs /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs /home/thanhdat/ws_drone/build/unity_robotics_demo_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/depend
 

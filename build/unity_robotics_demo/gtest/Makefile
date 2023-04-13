@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/unity_robotics_demo
+CMAKE_SOURCE_DIR = /home/thanhdat/ws_drone/src/unity_robotics_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thanhdat/drone/build/unity_robotics_demo
+CMAKE_BINARY_DIR = /home/thanhdat/ws_drone/build/unity_robotics_demo
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/thanhdat/drone/build/unity_robotics_demo && $(CMAKE_COMMAND) -E cmake_progress_start /home/thanhdat/drone/build/unity_robotics_demo/CMakeFiles /home/thanhdat/drone/build/unity_robotics_demo/gtest/CMakeFiles/progress.marks
-	cd /home/thanhdat/drone/build/unity_robotics_demo && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thanhdat/drone/build/unity_robotics_demo/CMakeFiles 0
+	cd /home/thanhdat/ws_drone/build/unity_robotics_demo && $(CMAKE_COMMAND) -E cmake_progress_start /home/thanhdat/ws_drone/build/unity_robotics_demo/CMakeFiles /home/thanhdat/ws_drone/build/unity_robotics_demo/gtest/CMakeFiles/progress.marks
+	cd /home/thanhdat/ws_drone/build/unity_robotics_demo && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thanhdat/ws_drone/build/unity_robotics_demo/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/thanhdat/drone/build/unity_robotics_demo && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
+	cd /home/thanhdat/ws_drone/build/unity_robotics_demo && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/thanhdat/drone/build/unity_robotics_demo && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+	cd /home/thanhdat/ws_drone/build/unity_robotics_demo && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/thanhdat/drone/build/unity_robotics_demo && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+	cd /home/thanhdat/ws_drone/build/unity_robotics_demo && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/thanhdat/drone/build/unity_robotics_demo && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/thanhdat/ws_drone/build/unity_robotics_demo && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/thanhdat/drone/build/unity_robotics_demo && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/thanhdat/ws_drone/build/unity_robotics_demo && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

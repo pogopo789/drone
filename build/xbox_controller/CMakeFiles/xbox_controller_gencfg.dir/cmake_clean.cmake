@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/drone/devel/.private/xbox_controller/include/xbox_controller/Controller_initConfig.h"
-  "/home/thanhdat/drone/devel/.private/xbox_controller/lib/python3/dist-packages/xbox_controller/cfg/Controller_initConfig.py"
-  "/home/thanhdat/drone/devel/.private/xbox_controller/share/xbox_controller/docs/Controller_initConfig-usage.dox"
-  "/home/thanhdat/drone/devel/.private/xbox_controller/share/xbox_controller/docs/Controller_initConfig.dox"
-  "/home/thanhdat/drone/devel/.private/xbox_controller/share/xbox_controller/docs/Controller_initConfig.wikidoc"
+  "/home/thanhdat/ws_drone/devel/.private/xbox_controller/include/xbox_controller/Controller_initConfig.h"
+  "/home/thanhdat/ws_drone/devel/.private/xbox_controller/lib/python3/dist-packages/xbox_controller/cfg/Controller_initConfig.py"
+  "/home/thanhdat/ws_drone/devel/.private/xbox_controller/share/xbox_controller/docs/Controller_initConfig-usage.dox"
+  "/home/thanhdat/ws_drone/devel/.private/xbox_controller/share/xbox_controller/docs/Controller_initConfig.dox"
+  "/home/thanhdat/ws_drone/devel/.private/xbox_controller/share/xbox_controller/docs/Controller_initConfig.wikidoc"
   "CMakeFiles/xbox_controller_gencfg"
 )
 

@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs/msg/PosRot.js"
-  "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs/msg/Pose.js"
-  "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs/msg/UnityColor.js"
-  "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs/srv/ObjectPoseService.js"
-  "/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs/srv/PositionService.js"
+  "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs/msg/PosRot.js"
+  "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs/msg/Pose.js"
+  "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs/msg/UnityColor.js"
+  "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs/srv/ObjectPoseService.js"
+  "/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo_msgs/share/gennodejs/ros/unity_robotics_demo_msgs/srv/PositionService.js"
   "CMakeFiles/unity_robotics_demo_msgs_generate_messages_nodejs"
 )
 
