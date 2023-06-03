@@ -1,1 +1,0 @@
-/home/thanhdat/ws_drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/cfg/__init__.py

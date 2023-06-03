@@ -305,4 +305,68 @@ int FlightController::updateFeatures(const std::set<std::string> &add,
     return 1;
 }
 
+bool FlightController::setGPS(const float lat_in, const float lon_in, const uint16_t altitude_in)
+{
+    msp::msg::SetRawGPS gps(fw_variant_);
+    msp::Value<uint8_t> fix;
+    msp::Value<uint8_t> numSat;
+    msp::Value<float> lat;          // degree
+    msp::Value<float> lon;          // degree
+    msp::Value<uint16_t> altitude;  // meter
+    msp::Value<float> speed;        // m/s
+
+    fix = 0;
+    numSat = 10;
+    lat = lat_in;
+    lon = lon_in;
+    altitude = altitude_in; 
+    speed = 0;
+
+    gps.fix=fix;
+    gps.numSat=numSat;
+    gps.lat=lat;
+    gps.lon=lon;
+    gps.altitude=altitude;
+    gps.speed=speed;
+    // std::cout<<"sizeof gps: "<<sizeof(gps);
+    return client_.sendMessageNoWait(gps);
+}
+
+bool FlightController::setWP(const uint8_t wp_no, const uint8_t action,
+                             const uint32_t lat, const uint32_t lon,
+                             const uint32_t alt, const uint16_t p1,
+                             const uint16_t p2, const uint16_t p3,
+                             const uint8_t nav_flag)
+{
+    msp::msg::SetWp wp(fw_variant_);
+
+    wp.wp_no = wp_no;
+    wp.action = action;
+    wp.lat = lat;
+    wp.lon = lon;
+    wp.alt = alt;
+
+    wp.p1 = p1;
+    wp.p2 = p2;
+    wp.p3 = p3;
+    wp.nav_flag = nav_flag;
+    
+    return client_.sendMessageNoWait(wp);
+}
+
+bool FlightController::saveWP(){
+    msp::msg::WpMissionSave savewp(fw_variant_);
+    return client_.sendMessage(savewp);
+}
+bool FlightController::writeEEPROM(){
+    msp::msg::WriteEEPROM writeeeprom(fw_variant_);
+    return client_.sendMessage(writeeeprom);
+}
+
+bool FlightController::loadWP(){
+    msp::msg::WpMissionLoad loadwp(fw_variant_);
+    return client_.sendMessage(loadwp);
+}
+
+
 }  // namespace fcu

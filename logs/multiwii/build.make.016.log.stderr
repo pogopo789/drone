@@ -1,8 +1,0 @@
-[01m[K/home/thanhdat/ws_drone/src/multiwii/src/multiwii_node.cpp:[m[K In member function ‘[01m[Kvoid MultiWiiNode::onAttitude(const msp::msg::Attitude&)[m[K’:
-[01m[K/home/thanhdat/ws_drone/src/multiwii/src/multiwii_node.cpp:292:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksonar_altitude[m[K’ was not declared in this scope; did you mean ‘[01m[Ksonar_altitude_pub[m[K’?
-  292 |         multiwii_transform.setOrigin(tf::Vector3(0.0, 0.0, [01;31m[Ksonar_altitude[m[K.altitude_cm));
-      |                                                            [01;31m[K^~~~~~~~~~~~~~[m[K
-      |                                                            [32m[Ksonar_altitude_pub[m[K
-make[2]: *** [CMakeFiles/multiwii_node.dir/build.make:63: CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:224: CMakeFiles/multiwii_node.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

@@ -341,6 +341,15 @@ public:
         const std::set<std::string> &add    = std::set<std::string>(),
         const std::set<std::string> &remove = std::set<std::string>());
 
+     /**
+     * custom function
+    */
+    bool setGPS(const float lat_in, const float lon_in, const uint16_t altitude_in);
+    bool setWP(const uint8_t wp_no, const uint8_t action, const uint32_t lat, const uint32_t lon, const uint32_t alt, const uint16_t p1, const uint16_t p2, const uint16_t p3, const uint8_t nav_flag);
+    bool saveWP();
+    bool writeEEPROM();
+    bool loadWP();
+
 private:
     // Client instance for managing the actual comms with the flight controller
     msp::client::Client client_;

@@ -217,7 +217,8 @@ enum class ID : uint16_t {
     MSP2_INAV_SET_BATTERY_CONFIG = 0x2006,
     MSP2_INAV_RATE_PROFILE       = 0x2007,
     MSP2_INAV_SET_RATE_PROFILE   = 0x2008,
-    MSP2_INAV_AIR_SPEED          = 0x2009
+    MSP2_INAV_AIR_SPEED          = 0x2009,
+    MSP2_INAV_DEBUG              = 0x2019
 };
 
 enum class ArmingFlags : uint32_t {
@@ -4304,6 +4305,7 @@ struct SetRawGPS : public Message {
         rc &= data->pack<int32_t>(lon, 1e7);
         rc &= data->pack(altitude);
         rc &= data->pack<uint16_t>(speed, 100);
+        // std::cout<<" data size: "<<data->size()<<std::endl;
         assert(data->size() == 14);
         if(!rc) data.reset();
         return data;
@@ -4920,10 +4922,10 @@ struct Debug : public Message {
 
     virtual ID id() const override { return ID::MSP_DEBUG; }
 
-    Value<uint16_t> debug1;
-    Value<uint16_t> debug2;
-    Value<uint16_t> debug3;
-    Value<uint16_t> debug4;
+    Value<int16_t> debug1;
+    Value<int16_t> debug2;
+    Value<int16_t> debug3;
+    Value<int16_t> debug4;
 
     virtual bool decode(const ByteVector& data) override {
         bool rc = true;
@@ -4931,6 +4933,36 @@ struct Debug : public Message {
         rc &= data.unpack(debug2);
         rc &= data.unpack(debug3);
         rc &= data.unpack(debug4);
+        return rc;
+    }
+};
+
+// MSP2_INAV_DEBUG
+
+struct INAVDebug : public Message {
+    INAVDebug(FirmwareVariant v) : Message(v) {}
+
+    virtual ID id() const override { return ID::MSP2_INAV_DEBUG; }
+
+    Value<int32_t> debug0;
+    Value<int32_t> debug1;
+    Value<int32_t> debug2;
+    Value<int32_t> debug3;
+    Value<int32_t> debug4;
+    Value<int32_t> debug5;
+    Value<int32_t> debug6;
+    Value<int32_t> debug7;
+
+    virtual bool decode(const ByteVector& data) override {
+        bool rc = true;
+        rc &= data.unpack(debug0);
+        rc &= data.unpack(debug1);
+        rc &= data.unpack(debug2);
+        rc &= data.unpack(debug3);
+        rc &= data.unpack(debug4);
+        rc &= data.unpack(debug5);
+        rc &= data.unpack(debug6);
+        rc &= data.unpack(debug7);
         return rc;
     }
 };

@@ -1,7 +1,0 @@
-[ 20%] Built target mspclient
-[ 33%] Built target client_read_test
-[ 46%] Built target client_async_test
-[ 60%] Built target msp_fcu
-[ 73%] Built target fcu_test
-[ 86%] Built target fcu_motors
-[100%] Built target fcu_custom_type

@@ -1,8 +1,0 @@
-unity_robotics_demo
-/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo/cmake.lock /home/thanhdat/ws_drone/devel/./cmake.lock
-/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo/lib/unity_robotics_demo/cmake.lock /home/thanhdat/ws_drone/devel/lib/unity_robotics_demo/cmake.lock
-/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo/lib/unity_robotics_demo/color_publisher.py /home/thanhdat/ws_drone/devel/lib/unity_robotics_demo/color_publisher.py
-/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo/lib/unity_robotics_demo/position_service.py /home/thanhdat/ws_drone/devel/lib/unity_robotics_demo/position_service.py
-/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo/lib/pkgconfig/unity_robotics_demo.pc /home/thanhdat/ws_drone/devel/lib/pkgconfig/unity_robotics_demo.pc
-/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo/share/unity_robotics_demo/cmake/unity_robotics_demoConfig.cmake /home/thanhdat/ws_drone/devel/share/unity_robotics_demo/cmake/unity_robotics_demoConfig.cmake
-/home/thanhdat/ws_drone/devel/.private/unity_robotics_demo/share/unity_robotics_demo/cmake/unity_robotics_demoConfig-version.cmake /home/thanhdat/ws_drone/devel/share/unity_robotics_demo/cmake/unity_robotics_demoConfig-version.cmake

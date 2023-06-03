@@ -1,1 +1,0 @@
-/home/thanhdat/ws_drone/devel/.private/xbox_controller/share/xbox_controller/cmake/xbox_controllerConfig.cmake

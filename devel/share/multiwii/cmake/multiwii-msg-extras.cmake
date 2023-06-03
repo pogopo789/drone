@@ -1,1 +1,0 @@
-/home/thanhdat/ws_drone/devel/.private/multiwii/share/multiwii/cmake/multiwii-msg-extras.cmake

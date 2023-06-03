@@ -1,1 +1,0 @@
-/home/thanhdat/ws_drone/devel/.private/multiwii/share/roseus/ros/multiwii/manifest.l
