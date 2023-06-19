@@ -356,16 +356,16 @@ bool FlightController::setWP(const uint8_t wp_no, const uint8_t action,
 
 bool FlightController::saveWP(){
     msp::msg::WpMissionSave savewp(fw_variant_);
-    return client_.sendMessage(savewp);
+    return client_.sendMessageNoWait(savewp);
 }
 bool FlightController::writeEEPROM(){
     msp::msg::WriteEEPROM writeeeprom(fw_variant_);
-    return client_.sendMessage(writeeeprom);
+    return client_.sendMessageNoWait(writeeeprom);
 }
 
 bool FlightController::loadWP(){
     msp::msg::WpMissionLoad loadwp(fw_variant_);
-    return client_.sendMessage(loadwp);
+    return client_.sendMessageNoWait(loadwp);
 }
 
 
