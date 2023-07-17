@@ -4,8 +4,8 @@
 namespace fcu {
 
 FlightController::FlightController() :
-    msp_version_(1),
-    control_source_(ControlSource::NONE),
+    msp_version_(2),
+    control_source_(ControlSource::MSP),
     msp_timer_(std::bind(&FlightController::generateMSP, this), 0.1) {}
 
 FlightController::~FlightController() { disconnect(); }

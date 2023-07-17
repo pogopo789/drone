@@ -68,5 +68,6 @@
         "variant": "cpp",
         "bit": "cpp",
         "*.txx": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/thanhdat/drone/src/ROS-TCP-Endpoint-main"
 }
