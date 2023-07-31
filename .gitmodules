@@ -1,0 +1,6 @@
+[submodule "ros-multiwii"]
+	path = ros-multiwii
+	url = https://github.com/christianrauch/ros-multiwii.git
+[submodule "src/ros-multiwii"]
+	path = src/ros-multiwii
+	url = https://github.com/christianrauch/ros-multiwii.git
