@@ -1,1 +1,0 @@
-/home/thanhdat/drone/devel/.private/multiwii/share/roseus/ros/multiwii/srv/ReceiveMSPRawMessage.l

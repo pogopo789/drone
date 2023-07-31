@@ -1,1 +1,0 @@
-/home/thanhdat/drone/devel/.private/multiwii/share/multiwii/cmake/multiwii-msg-paths.cmake

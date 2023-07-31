@@ -1,0 +1,13 @@
+/home/thanhdat/drone/devel_isolated/msp/lib/libmsp_fcu.so
+/home/thanhdat/drone/devel_isolated/msp/lib/libmspclient.so
+/home/thanhdat/drone/devel_isolated/msp/include//msp/FirmwareVariants.hpp
+/home/thanhdat/drone/devel_isolated/msp/include//msp/FlightMode.hpp
+/home/thanhdat/drone/devel_isolated/msp/include//msp/ByteVector.hpp
+/home/thanhdat/drone/devel_isolated/msp/include//msp/Subscription.hpp
+/home/thanhdat/drone/devel_isolated/msp/include//msp/FlightController.hpp
+/home/thanhdat/drone/devel_isolated/msp/include//msp/Client.hpp
+/home/thanhdat/drone/devel_isolated/msp/include//msp/Message.hpp
+/home/thanhdat/drone/devel_isolated/msp/include//msp/Value.hpp
+/home/thanhdat/drone/devel_isolated/msp/include//msp/PeriodicTimer.hpp
+/home/thanhdat/drone/devel_isolated/msp/include//msp/msp_msg.hpp
+/home/thanhdat/drone/devel_isolated/msp/lib/pkgconfig/msp.pc

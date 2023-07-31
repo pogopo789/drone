@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/thanhdat/drone/devel_isolated/unity_robotics_demo_msgs/setup.sh

@@ -1,1 +1,0 @@
-/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/SendMSPRawMessage.lisp

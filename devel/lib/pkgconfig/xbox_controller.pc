@@ -1,1 +1,0 @@
-/home/thanhdat/drone/devel/.private/xbox_controller/lib/pkgconfig/xbox_controller.pc

@@ -1,0 +1,2 @@
+ROS-TCP-Endpoint-main:msp:ros-multiwii:unity_robotics_demo:unity_robotics_demo_msgs:xbox_controller
+-DCATKIN_DEVEL_PREFIX=/home/thanhdat/drone/devel -DCMAKE_INSTALL_PREFIX=/home/thanhdat/drone/install -G Unix Makefiles
