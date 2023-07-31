@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/multiwii
+CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/ros-multiwii
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/thanhdat/drone/build/multiwii
@@ -58,17 +58,17 @@ include CMakeFiles/multiwii_node.dir/progress.make
 include CMakeFiles/multiwii_node.dir/flags.make
 
 CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: CMakeFiles/multiwii_node.dir/flags.make
-CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /home/thanhdat/drone/src/multiwii/src/multiwii_node.cpp
+CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /home/thanhdat/drone/src/ros-multiwii/src/multiwii_node.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o -c /home/thanhdat/drone/src/multiwii/src/multiwii_node.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o -c /home/thanhdat/drone/src/ros-multiwii/src/multiwii_node.cpp
 
 CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thanhdat/drone/src/multiwii/src/multiwii_node.cpp > CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thanhdat/drone/src/ros-multiwii/src/multiwii_node.cpp > CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.i
 
 CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thanhdat/drone/src/multiwii/src/multiwii_node.cpp -o CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thanhdat/drone/src/ros-multiwii/src/multiwii_node.cpp -o CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.s
 
 # Object files for target multiwii_node
 multiwii_node_OBJECTS = \
@@ -116,6 +116,6 @@ CMakeFiles/multiwii_node.dir/clean:
 .PHONY : CMakeFiles/multiwii_node.dir/clean
 
 CMakeFiles/multiwii_node.dir/depend:
-	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/multiwii_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/ros-multiwii /home/thanhdat/drone/src/ros-multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/multiwii_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/multiwii_node.dir/depend
 

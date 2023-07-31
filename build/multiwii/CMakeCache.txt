@@ -492,7 +492,7 @@ message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 multiwii_BINARY_DIR:STATIC=/home/thanhdat/drone/build/multiwii
 
 //Value Computed by CMake
-multiwii_SOURCE_DIR:STATIC=/home/thanhdat/drone/src/multiwii
+multiwii_SOURCE_DIR:STATIC=/home/thanhdat/drone/src/ros-multiwii
 
 //Path to a library.
 pkgcfg_lib_msp_msp_fcu:FILEPATH=/home/thanhdat/drone/devel/lib/libmsp_fcu.so
@@ -647,7 +647,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/thanhdat/drone/src/multiwii
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/thanhdat/drone/src/ros-multiwii
 //ADVANCED property for variable: CMAKE_INSTALL_BINDIR
 CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_DATADIR

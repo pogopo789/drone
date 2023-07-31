@@ -1,4 +1,4 @@
-# Install script for directory: /home/thanhdat/drone/src/multiwii
+# Install script for directory: /home/thanhdat/drone/src/ros-multiwii
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -130,16 +130,16 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii/msg" TYPE FILE FILES
-    "/home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg"
-    "/home/thanhdat/drone/src/multiwii/msg/Waypoints.msg"
-    "/home/thanhdat/drone/src/multiwii/msg/Waypoint.msg"
+    "/home/thanhdat/drone/src/ros-multiwii/msg/MSPRawMessage.msg"
+    "/home/thanhdat/drone/src/ros-multiwii/msg/Waypoints.msg"
+    "/home/thanhdat/drone/src/ros-multiwii/msg/Waypoint.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii/srv" TYPE FILE FILES
-    "/home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv"
-    "/home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv"
+    "/home/thanhdat/drone/src/ros-multiwii/srv/ReceiveMSPRawMessage.srv"
+    "/home/thanhdat/drone/src/ros-multiwii/srv/SendMSPRawMessage.srv"
     )
 endif()
 
@@ -203,7 +203,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii" TYPE FILE FILES "/home/thanhdat/drone/src/multiwii/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii" TYPE FILE FILES "/home/thanhdat/drone/src/ros-multiwii/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -227,11 +227,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii" TYPE DIRECTORY FILES "/home/thanhdat/drone/src/multiwii/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii" TYPE DIRECTORY FILES "/home/thanhdat/drone/src/ros-multiwii/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii" TYPE DIRECTORY FILES "/home/thanhdat/drone/src/multiwii/cfg" FILES_MATCHING REGEX "/[^/]*\\.yaml$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii" TYPE DIRECTORY FILES "/home/thanhdat/drone/src/ros-multiwii/cfg" FILES_MATCHING REGEX "/[^/]*\\.yaml$")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

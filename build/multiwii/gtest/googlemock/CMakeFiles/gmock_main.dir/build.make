@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/multiwii
+CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/ros-multiwii
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/thanhdat/drone/build/multiwii
@@ -95,6 +95,6 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/clean
 
 gtest/googlemock/CMakeFiles/gmock_main.dir/depend:
-	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/multiwii /usr/src/googletest/googlemock /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/gtest/googlemock /home/thanhdat/drone/build/multiwii/gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/ros-multiwii /usr/src/googletest/googlemock /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/gtest/googlemock /home/thanhdat/drone/build/multiwii/gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 

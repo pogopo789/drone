@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/multiwii
+CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/ros-multiwii
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/thanhdat/drone/build/multiwii
@@ -61,32 +61,32 @@ CMakeFiles/multiwii_generate_messages_lisp: /home/thanhdat/drone/devel/.private/
 
 
 /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/MSPRawMessage.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/MSPRawMessage.lisp: /home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg
+/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/MSPRawMessage.lisp: /home/thanhdat/drone/src/ros-multiwii/msg/MSPRawMessage.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from multiwii/MSPRawMessage.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/thanhdat/drone/src/ros-multiwii/msg/MSPRawMessage.msg -Imultiwii:/home/thanhdat/drone/src/ros-multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg
 
 /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/Waypoints.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/Waypoints.lisp: /home/thanhdat/drone/src/multiwii/msg/Waypoints.msg
-/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/Waypoints.lisp: /home/thanhdat/drone/src/multiwii/msg/Waypoint.msg
+/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/Waypoints.lisp: /home/thanhdat/drone/src/ros-multiwii/msg/Waypoints.msg
+/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/Waypoints.lisp: /home/thanhdat/drone/src/ros-multiwii/msg/Waypoint.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from multiwii/Waypoints.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/thanhdat/drone/src/multiwii/msg/Waypoints.msg -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/thanhdat/drone/src/ros-multiwii/msg/Waypoints.msg -Imultiwii:/home/thanhdat/drone/src/ros-multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg
 
 /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/Waypoint.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/Waypoint.lisp: /home/thanhdat/drone/src/multiwii/msg/Waypoint.msg
+/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/Waypoint.lisp: /home/thanhdat/drone/src/ros-multiwii/msg/Waypoint.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from multiwii/Waypoint.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/thanhdat/drone/src/multiwii/msg/Waypoint.msg -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/thanhdat/drone/src/ros-multiwii/msg/Waypoint.msg -Imultiwii:/home/thanhdat/drone/src/ros-multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg
 
 /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/ReceiveMSPRawMessage.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/ReceiveMSPRawMessage.lisp: /home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv
-/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/ReceiveMSPRawMessage.lisp: /home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg
+/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/ReceiveMSPRawMessage.lisp: /home/thanhdat/drone/src/ros-multiwii/srv/ReceiveMSPRawMessage.srv
+/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/ReceiveMSPRawMessage.lisp: /home/thanhdat/drone/src/ros-multiwii/msg/MSPRawMessage.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from multiwii/ReceiveMSPRawMessage.srv"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/thanhdat/drone/src/ros-multiwii/srv/ReceiveMSPRawMessage.srv -Imultiwii:/home/thanhdat/drone/src/ros-multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv
 
 /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/SendMSPRawMessage.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/SendMSPRawMessage.lisp: /home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv
-/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/SendMSPRawMessage.lisp: /home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg
+/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/SendMSPRawMessage.lisp: /home/thanhdat/drone/src/ros-multiwii/srv/SendMSPRawMessage.srv
+/home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/SendMSPRawMessage.lisp: /home/thanhdat/drone/src/ros-multiwii/msg/MSPRawMessage.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from multiwii/SendMSPRawMessage.srv"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/thanhdat/drone/src/ros-multiwii/srv/SendMSPRawMessage.srv -Imultiwii:/home/thanhdat/drone/src/ros-multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv
 
 multiwii_generate_messages_lisp: CMakeFiles/multiwii_generate_messages_lisp
 multiwii_generate_messages_lisp: /home/thanhdat/drone/devel/.private/multiwii/share/common-lisp/ros/multiwii/msg/MSPRawMessage.lisp
@@ -108,6 +108,6 @@ CMakeFiles/multiwii_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/multiwii_generate_messages_lisp.dir/clean
 
 CMakeFiles/multiwii_generate_messages_lisp.dir/depend:
-	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/multiwii_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/ros-multiwii /home/thanhdat/drone/src/ros-multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/multiwii_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/multiwii_generate_messages_lisp.dir/depend
 

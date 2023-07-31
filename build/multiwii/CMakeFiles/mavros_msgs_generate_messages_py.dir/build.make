@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/multiwii
+CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/ros-multiwii
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/thanhdat/drone/build/multiwii
@@ -67,6 +67,6 @@ CMakeFiles/mavros_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/mavros_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/mavros_msgs_generate_messages_py.dir/depend:
-	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/mavros_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/ros-multiwii /home/thanhdat/drone/src/ros-multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/mavros_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mavros_msgs_generate_messages_py.dir/depend
 

@@ -1,4 +1,4 @@
-multiwii
+ros-multiwii
 /home/thanhdat/drone/devel/.private/multiwii/cmake.lock /home/thanhdat/drone/devel/./cmake.lock
 /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/__init__.py /home/thanhdat/drone/devel/lib/python3/dist-packages/multiwii/__init__.py
 /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py /home/thanhdat/drone/devel/lib/python3/dist-packages/multiwii/msg/__init__.py

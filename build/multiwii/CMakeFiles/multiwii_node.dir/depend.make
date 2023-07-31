@@ -14,7 +14,7 @@ CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /home/thanhdat/drone/devel
 CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /home/thanhdat/drone/devel/include/msp/Subscription.hpp
 CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /home/thanhdat/drone/devel/include/msp/Value.hpp
 CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /home/thanhdat/drone/devel/include/msp/msp_msg.hpp
-CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /home/thanhdat/drone/src/multiwii/src/multiwii_node.cpp
+CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /home/thanhdat/drone/src/ros-multiwii/src/multiwii_node.cpp
 CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /opt/ros/noetic/include/dynamic_reconfigure/BoolParameter.h
 CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /opt/ros/noetic/include/dynamic_reconfigure/Config.h
 CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o: /opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h

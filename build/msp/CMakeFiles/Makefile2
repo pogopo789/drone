@@ -137,8 +137,8 @@ CMakeFiles/client_read_test.dir/clean:
 # Target rules for target CMakeFiles/fcu_custom_type.dir
 
 # All Build rule for target.
-CMakeFiles/fcu_custom_type.dir/all: CMakeFiles/mspclient.dir/all
 CMakeFiles/fcu_custom_type.dir/all: CMakeFiles/msp_fcu.dir/all
+CMakeFiles/fcu_custom_type.dir/all: CMakeFiles/mspclient.dir/all
 	$(MAKE) -f CMakeFiles/fcu_custom_type.dir/build.make CMakeFiles/fcu_custom_type.dir/depend
 	$(MAKE) -f CMakeFiles/fcu_custom_type.dir/build.make CMakeFiles/fcu_custom_type.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thanhdat/drone/build/msp/CMakeFiles --progress-num=5,6 "Built target fcu_custom_type"
@@ -165,8 +165,8 @@ CMakeFiles/fcu_custom_type.dir/clean:
 # Target rules for target CMakeFiles/fcu_motors.dir
 
 # All Build rule for target.
-CMakeFiles/fcu_motors.dir/all: CMakeFiles/mspclient.dir/all
 CMakeFiles/fcu_motors.dir/all: CMakeFiles/msp_fcu.dir/all
+CMakeFiles/fcu_motors.dir/all: CMakeFiles/mspclient.dir/all
 	$(MAKE) -f CMakeFiles/fcu_motors.dir/build.make CMakeFiles/fcu_motors.dir/depend
 	$(MAKE) -f CMakeFiles/fcu_motors.dir/build.make CMakeFiles/fcu_motors.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thanhdat/drone/build/msp/CMakeFiles --progress-num=7,8 "Built target fcu_motors"
@@ -193,8 +193,8 @@ CMakeFiles/fcu_motors.dir/clean:
 # Target rules for target CMakeFiles/fcu_test.dir
 
 # All Build rule for target.
-CMakeFiles/fcu_test.dir/all: CMakeFiles/mspclient.dir/all
 CMakeFiles/fcu_test.dir/all: CMakeFiles/msp_fcu.dir/all
+CMakeFiles/fcu_test.dir/all: CMakeFiles/mspclient.dir/all
 	$(MAKE) -f CMakeFiles/fcu_test.dir/build.make CMakeFiles/fcu_test.dir/depend
 	$(MAKE) -f CMakeFiles/fcu_test.dir/build.make CMakeFiles/fcu_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thanhdat/drone/build/msp/CMakeFiles --progress-num=9,10 "Built target fcu_test"

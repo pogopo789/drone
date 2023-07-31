@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/thanhdat/drone/build/unity_robotics_demo_msgs
 include CMakeFiles/_unity_robotics_demo_msgs_generate_messages_check_deps_Pose.dir/progress.make
 
 CMakeFiles/_unity_robotics_demo_msgs_generate_messages_check_deps_Pose:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py unity_robotics_demo_msgs /home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Point
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py unity_robotics_demo_msgs /home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg geometry_msgs/PoseStamped:geometry_msgs/Point:geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Pose
 
 _unity_robotics_demo_msgs_generate_messages_check_deps_Pose: CMakeFiles/_unity_robotics_demo_msgs_generate_messages_check_deps_Pose
 _unity_robotics_demo_msgs_generate_messages_check_deps_Pose: CMakeFiles/_unity_robotics_demo_msgs_generate_messages_check_deps_Pose.dir/build.make

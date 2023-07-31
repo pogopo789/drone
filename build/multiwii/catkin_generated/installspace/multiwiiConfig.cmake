@@ -67,7 +67,7 @@ set(multiwii_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(multiwii_SOURCE_PREFIX /home/thanhdat/drone/src/multiwii)
+  set(multiwii_SOURCE_PREFIX /home/thanhdat/drone/src/ros-multiwii)
   set(multiwii_DEVEL_PREFIX /home/thanhdat/drone/devel/.private/multiwii)
   set(multiwii_INSTALL_PREFIX "")
   set(multiwii_PREFIX ${multiwii_DEVEL_PREFIX})

@@ -178,7 +178,7 @@ vector
 Message.hpp
 /home/thanhdat/drone/devel/include/msp/Message.hpp
 
-/home/thanhdat/drone/src/multiwii/src/multiwii_node.cpp
+/home/thanhdat/drone/src/ros-multiwii/src/multiwii_node.cpp
 ros/ros.h
 -
 dynamic_reconfigure/server.h

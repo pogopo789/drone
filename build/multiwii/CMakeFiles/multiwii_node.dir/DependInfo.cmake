@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thanhdat/drone/src/multiwii/src/multiwii_node.cpp" "/home/thanhdat/drone/build/multiwii/CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o"
+  "/home/thanhdat/drone/src/ros-multiwii/src/multiwii_node.cpp" "/home/thanhdat/drone/build/multiwii/CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

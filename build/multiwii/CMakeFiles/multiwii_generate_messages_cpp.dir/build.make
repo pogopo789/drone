@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/multiwii
+CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/ros-multiwii
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/thanhdat/drone/build/multiwii
@@ -61,39 +61,39 @@ CMakeFiles/multiwii_generate_messages_cpp: /home/thanhdat/drone/devel/.private/m
 
 
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/MSPRawMessage.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/MSPRawMessage.h: /home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg
+/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/MSPRawMessage.h: /home/thanhdat/drone/src/ros-multiwii/msg/MSPRawMessage.msg
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/MSPRawMessage.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from multiwii/MSPRawMessage.msg"
-	cd /home/thanhdat/drone/src/multiwii && /home/thanhdat/drone/build/multiwii/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/include/multiwii -e /opt/ros/noetic/share/gencpp/cmake/..
+	cd /home/thanhdat/drone/src/ros-multiwii && /home/thanhdat/drone/build/multiwii/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/thanhdat/drone/src/ros-multiwii/msg/MSPRawMessage.msg -Imultiwii:/home/thanhdat/drone/src/ros-multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/include/multiwii -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/Waypoints.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/Waypoints.h: /home/thanhdat/drone/src/multiwii/msg/Waypoints.msg
-/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/Waypoints.h: /home/thanhdat/drone/src/multiwii/msg/Waypoint.msg
+/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/Waypoints.h: /home/thanhdat/drone/src/ros-multiwii/msg/Waypoints.msg
+/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/Waypoints.h: /home/thanhdat/drone/src/ros-multiwii/msg/Waypoint.msg
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/Waypoints.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from multiwii/Waypoints.msg"
-	cd /home/thanhdat/drone/src/multiwii && /home/thanhdat/drone/build/multiwii/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/thanhdat/drone/src/multiwii/msg/Waypoints.msg -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/include/multiwii -e /opt/ros/noetic/share/gencpp/cmake/..
+	cd /home/thanhdat/drone/src/ros-multiwii && /home/thanhdat/drone/build/multiwii/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/thanhdat/drone/src/ros-multiwii/msg/Waypoints.msg -Imultiwii:/home/thanhdat/drone/src/ros-multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/include/multiwii -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/Waypoint.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/Waypoint.h: /home/thanhdat/drone/src/multiwii/msg/Waypoint.msg
+/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/Waypoint.h: /home/thanhdat/drone/src/ros-multiwii/msg/Waypoint.msg
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/Waypoint.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from multiwii/Waypoint.msg"
-	cd /home/thanhdat/drone/src/multiwii && /home/thanhdat/drone/build/multiwii/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/thanhdat/drone/src/multiwii/msg/Waypoint.msg -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/include/multiwii -e /opt/ros/noetic/share/gencpp/cmake/..
+	cd /home/thanhdat/drone/src/ros-multiwii && /home/thanhdat/drone/build/multiwii/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/thanhdat/drone/src/ros-multiwii/msg/Waypoint.msg -Imultiwii:/home/thanhdat/drone/src/ros-multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/include/multiwii -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/ReceiveMSPRawMessage.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/ReceiveMSPRawMessage.h: /home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv
-/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/ReceiveMSPRawMessage.h: /home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg
+/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/ReceiveMSPRawMessage.h: /home/thanhdat/drone/src/ros-multiwii/srv/ReceiveMSPRawMessage.srv
+/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/ReceiveMSPRawMessage.h: /home/thanhdat/drone/src/ros-multiwii/msg/MSPRawMessage.msg
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/ReceiveMSPRawMessage.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/ReceiveMSPRawMessage.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from multiwii/ReceiveMSPRawMessage.srv"
-	cd /home/thanhdat/drone/src/multiwii && /home/thanhdat/drone/build/multiwii/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/thanhdat/drone/src/multiwii/srv/ReceiveMSPRawMessage.srv -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/include/multiwii -e /opt/ros/noetic/share/gencpp/cmake/..
+	cd /home/thanhdat/drone/src/ros-multiwii && /home/thanhdat/drone/build/multiwii/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/thanhdat/drone/src/ros-multiwii/srv/ReceiveMSPRawMessage.srv -Imultiwii:/home/thanhdat/drone/src/ros-multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/include/multiwii -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/SendMSPRawMessage.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/SendMSPRawMessage.h: /home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv
-/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/SendMSPRawMessage.h: /home/thanhdat/drone/src/multiwii/msg/MSPRawMessage.msg
+/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/SendMSPRawMessage.h: /home/thanhdat/drone/src/ros-multiwii/srv/SendMSPRawMessage.srv
+/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/SendMSPRawMessage.h: /home/thanhdat/drone/src/ros-multiwii/msg/MSPRawMessage.msg
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/SendMSPRawMessage.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/SendMSPRawMessage.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from multiwii/SendMSPRawMessage.srv"
-	cd /home/thanhdat/drone/src/multiwii && /home/thanhdat/drone/build/multiwii/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/thanhdat/drone/src/multiwii/srv/SendMSPRawMessage.srv -Imultiwii:/home/thanhdat/drone/src/multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/include/multiwii -e /opt/ros/noetic/share/gencpp/cmake/..
+	cd /home/thanhdat/drone/src/ros-multiwii && /home/thanhdat/drone/build/multiwii/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/thanhdat/drone/src/ros-multiwii/srv/SendMSPRawMessage.srv -Imultiwii:/home/thanhdat/drone/src/ros-multiwii/msg -p multiwii -o /home/thanhdat/drone/devel/.private/multiwii/include/multiwii -e /opt/ros/noetic/share/gencpp/cmake/..
 
 multiwii_generate_messages_cpp: CMakeFiles/multiwii_generate_messages_cpp
 multiwii_generate_messages_cpp: /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/MSPRawMessage.h
@@ -115,6 +115,6 @@ CMakeFiles/multiwii_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/multiwii_generate_messages_cpp.dir/clean
 
 CMakeFiles/multiwii_generate_messages_cpp.dir/depend:
-	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/multiwii_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/ros-multiwii /home/thanhdat/drone/src/ros-multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/multiwii_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/multiwii_generate_messages_cpp.dir/depend
 

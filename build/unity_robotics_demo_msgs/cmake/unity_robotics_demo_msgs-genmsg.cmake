@@ -19,7 +19,7 @@ add_custom_target(unity_robotics_demo_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg" NAME_WE)
 add_custom_target(_unity_robotics_demo_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg" "std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/PoseStamped:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg" "geometry_msgs/PoseStamped:geometry_msgs/Point:geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Pose"
 )
 
 get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/PosRot.msg" NAME_WE)
@@ -34,7 +34,7 @@ add_custom_target(_unity_robotics_demo_msgs_generate_messages_check_deps_${_file
 
 get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" NAME_WE)
 add_custom_target(_unity_robotics_demo_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" "geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unity_robotics_demo_msgs" "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv" "geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/PositionService.srv" NAME_WE)
@@ -51,7 +51,7 @@ add_custom_target(_unity_robotics_demo_msgs_generate_messages_check_deps_${_file
 _generate_msg_cpp(unity_robotics_demo_msgs
   "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_cpp(unity_robotics_demo_msgs
@@ -71,7 +71,7 @@ _generate_msg_cpp(unity_robotics_demo_msgs
 _generate_srv_cpp(unity_robotics_demo_msgs
   "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_srv_cpp(unity_robotics_demo_msgs
@@ -116,7 +116,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS unity_robotics_demo_msgs_generate_m
 _generate_msg_eus(unity_robotics_demo_msgs
   "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_eus(unity_robotics_demo_msgs
@@ -136,7 +136,7 @@ _generate_msg_eus(unity_robotics_demo_msgs
 _generate_srv_eus(unity_robotics_demo_msgs
   "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_srv_eus(unity_robotics_demo_msgs
@@ -181,7 +181,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS unity_robotics_demo_msgs_generate_m
 _generate_msg_lisp(unity_robotics_demo_msgs
   "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_lisp(unity_robotics_demo_msgs
@@ -201,7 +201,7 @@ _generate_msg_lisp(unity_robotics_demo_msgs
 _generate_srv_lisp(unity_robotics_demo_msgs
   "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_srv_lisp(unity_robotics_demo_msgs
@@ -246,7 +246,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS unity_robotics_demo_msgs_generate_m
 _generate_msg_nodejs(unity_robotics_demo_msgs
   "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_nodejs(unity_robotics_demo_msgs
@@ -266,7 +266,7 @@ _generate_msg_nodejs(unity_robotics_demo_msgs
 _generate_srv_nodejs(unity_robotics_demo_msgs
   "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_srv_nodejs(unity_robotics_demo_msgs
@@ -311,7 +311,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS unity_robotics_demo_msgs_generate_m
 _generate_msg_py(unity_robotics_demo_msgs
   "/home/thanhdat/drone/src/unity_robotics_demo_msgs/msg/Pose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_msg_py(unity_robotics_demo_msgs
@@ -331,7 +331,7 @@ _generate_msg_py(unity_robotics_demo_msgs
 _generate_srv_py(unity_robotics_demo_msgs
   "/home/thanhdat/drone/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unity_robotics_demo_msgs
 )
 _generate_srv_py(unity_robotics_demo_msgs

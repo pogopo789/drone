@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/multiwii
+CMAKE_SOURCE_DIR = /home/thanhdat/drone/src/ros-multiwii
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/thanhdat/drone/build/multiwii
@@ -57,11 +57,11 @@ CMakeFiles/multiwii_gencfg: /home/thanhdat/drone/devel/.private/multiwii/include
 CMakeFiles/multiwii_gencfg: /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/cfg/UpdateRatesConfig.py
 
 
-/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/UpdateRatesConfig.h: /home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg
+/home/thanhdat/drone/devel/.private/multiwii/include/multiwii/UpdateRatesConfig.h: /home/thanhdat/drone/src/ros-multiwii/cfg/UpdateRates.cfg
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/UpdateRatesConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
 /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/UpdateRatesConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thanhdat/drone/build/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/UpdateRates.cfg: /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/UpdateRatesConfig.h /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/cfg/UpdateRatesConfig.py"
-	catkin_generated/env_cached.sh /home/thanhdat/drone/build/multiwii/setup_custom_pythonpath.sh /home/thanhdat/drone/src/multiwii/cfg/UpdateRates.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/thanhdat/drone/devel/.private/multiwii/share/multiwii /home/thanhdat/drone/devel/.private/multiwii/include/multiwii /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii
+	catkin_generated/env_cached.sh /home/thanhdat/drone/build/multiwii/setup_custom_pythonpath.sh /home/thanhdat/drone/src/ros-multiwii/cfg/UpdateRates.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/thanhdat/drone/devel/.private/multiwii/share/multiwii /home/thanhdat/drone/devel/.private/multiwii/include/multiwii /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii
 
 /home/thanhdat/drone/devel/.private/multiwii/share/multiwii/docs/UpdateRatesConfig.dox: /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/UpdateRatesConfig.h
 	@$(CMAKE_COMMAND) -E touch_nocreate /home/thanhdat/drone/devel/.private/multiwii/share/multiwii/docs/UpdateRatesConfig.dox
@@ -95,6 +95,6 @@ CMakeFiles/multiwii_gencfg.dir/clean:
 .PHONY : CMakeFiles/multiwii_gencfg.dir/clean
 
 CMakeFiles/multiwii_gencfg.dir/depend:
-	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/src/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/multiwii_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thanhdat/drone/build/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thanhdat/drone/src/ros-multiwii /home/thanhdat/drone/src/ros-multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii /home/thanhdat/drone/build/multiwii/CMakeFiles/multiwii_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/multiwii_gencfg.dir/depend
 
