@@ -1,0 +1,4 @@
+Symlinking /home/thanhdat/drone/devel/lib/python3/dist-packages/ros_tcp_endpoint/__init__.py
+Symlinking /home/thanhdat/drone/devel/lib/pkgconfig/ros_tcp_endpoint.pc
+Symlinking /home/thanhdat/drone/devel/share/ros_tcp_endpoint/cmake/ros_tcp_endpointConfig-version.cmake
+Symlinking /home/thanhdat/drone/devel/share/ros_tcp_endpoint/cmake/ros_tcp_endpointConfig.cmake

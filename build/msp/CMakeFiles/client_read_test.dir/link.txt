@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/client_read_test.dir/examples/client_read_test.cpp.o  -o client_read_test  -Wl,-rpath,/home/thanhdat/drone/build/msp libmspclient.so -lpthread 

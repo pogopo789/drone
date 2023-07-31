@@ -1,0 +1,61 @@
+[35m[1mScanning dependencies of target _multiwii_generate_messages_check_deps_MSPRawMessage[0m
+[35m[1mScanning dependencies of target _multiwii_generate_messages_check_deps_ReceiveMSPRawMessage[0m
+[35m[1mScanning dependencies of target _multiwii_generate_messages_check_deps_Waypoints[0m
+[35m[1mScanning dependencies of target _multiwii_generate_messages_check_deps_Waypoint[0m
+[  0%] Built target _multiwii_generate_messages_check_deps_ReceiveMSPRawMessage
+[  0%] Built target _multiwii_generate_messages_check_deps_Waypoint
+[  0%] Built target _multiwii_generate_messages_check_deps_MSPRawMessage
+[35m[1mScanning dependencies of target _multiwii_generate_messages_check_deps_SendMSPRawMessage[0m
+[35m[1mScanning dependencies of target multiwii_gencfg[0m
+[  0%] Built target _multiwii_generate_messages_check_deps_Waypoints
+[  3%] [34m[1mGenerating dynamic reconfigure files from cfg/UpdateRates.cfg: /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/UpdateRatesConfig.h /home/thanhdat/drone/devel/.private/multiwii/lib/python3/dist-packages/multiwii/cfg/UpdateRatesConfig.py[0m
+[  3%] Built target _multiwii_generate_messages_check_deps_SendMSPRawMessage
+[35m[1mScanning dependencies of target multiwii_generate_messages_py[0m
+[35m[1mScanning dependencies of target multiwii_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target multiwii_generate_messages_nodejs[0m
+[  6%] [34m[1mGenerating C++ code from multiwii/MSPRawMessage.msg[0m
+[  9%] [34m[1mGenerating Python from MSG multiwii/MSPRawMessage[0m
+[ 12%] [34m[1mGenerating Javascript code from multiwii/MSPRawMessage.msg[0m
+[ 16%] [34m[1mGenerating Javascript code from multiwii/Waypoints.msg[0m
+[ 19%] [34m[1mGenerating C++ code from multiwii/Waypoints.msg[0m
+[ 22%] [34m[1mGenerating Javascript code from multiwii/Waypoint.msg[0m
+[ 25%] [34m[1mGenerating Python from MSG multiwii/Waypoints[0m
+[ 29%] [34m[1mGenerating C++ code from multiwii/Waypoint.msg[0m
+[ 32%] [34m[1mGenerating Javascript code from multiwii/ReceiveMSPRawMessage.srv[0m
+[ 35%] [34m[1mGenerating Javascript code from multiwii/SendMSPRawMessage.srv[0m
+[ 38%] [34m[1mGenerating C++ code from multiwii/ReceiveMSPRawMessage.srv[0m
+[ 38%] Built target multiwii_generate_messages_nodejs
+[35m[1mScanning dependencies of target multiwii_generate_messages_eus[0m
+[ 41%] [34m[1mGenerating Python from MSG multiwii/Waypoint[0m
+[ 45%] [34m[1mGenerating EusLisp code from multiwii/MSPRawMessage.msg[0m
+[ 48%] [34m[1mGenerating C++ code from multiwii/SendMSPRawMessage.srv[0m
+[ 51%] [34m[1mGenerating EusLisp code from multiwii/Waypoints.msg[0m
+[ 54%] [34m[1mGenerating Python code from SRV multiwii/ReceiveMSPRawMessage[0m
+[ 58%] [34m[1mGenerating EusLisp code from multiwii/Waypoint.msg[0m
+Generating reconfiguration files for UpdateRates in multiwii
+Wrote header file in /home/thanhdat/drone/devel/.private/multiwii/include/multiwii/UpdateRatesConfig.h
+[ 58%] Built target multiwii_generate_messages_cpp
+[35m[1mScanning dependencies of target multiwii_generate_messages_lisp[0m
+[ 61%] [34m[1mGenerating EusLisp code from multiwii/ReceiveMSPRawMessage.srv[0m
+[ 64%] [34m[1mGenerating Lisp code from multiwii/MSPRawMessage.msg[0m
+[ 67%] [34m[1mGenerating Python code from SRV multiwii/SendMSPRawMessage[0m
+[ 67%] Built target multiwii_gencfg
+[35m[1mScanning dependencies of target multiwii_gencpp[0m
+[ 70%] [34m[1mGenerating EusLisp code from multiwii/SendMSPRawMessage.srv[0m
+[ 74%] [34m[1mGenerating Lisp code from multiwii/Waypoints.msg[0m
+[ 74%] Built target multiwii_gencpp
+[35m[1mScanning dependencies of target multiwii_node[0m
+[ 77%] [34m[1mGenerating Lisp code from multiwii/Waypoint.msg[0m
+[ 80%] [34m[1mGenerating EusLisp manifest code for multiwii[0m
+[ 83%] [34m[1mGenerating Lisp code from multiwii/ReceiveMSPRawMessage.srv[0m
+[ 87%] [34m[1mGenerating Python msg __init__.py for multiwii[0m
+[ 90%] [34m[1mGenerating Lisp code from multiwii/SendMSPRawMessage.srv[0m
+[ 90%] Built target multiwii_generate_messages_lisp
+[ 93%] [34m[1mGenerating Python srv __init__.py for multiwii[0m
+[ 93%] Built target multiwii_generate_messages_py
+[ 96%] [32mBuilding CXX object CMakeFiles/multiwii_node.dir/src/multiwii_node.cpp.o[0m
+[ 96%] Built target multiwii_generate_messages_eus
+[35m[1mScanning dependencies of target multiwii_generate_messages[0m
+[ 96%] Built target multiwii_generate_messages
+[100%] [32m[1mLinking CXX executable /home/thanhdat/drone/devel/.private/multiwii/lib/multiwii/multiwii_node[0m
+[100%] Built target multiwii_node
