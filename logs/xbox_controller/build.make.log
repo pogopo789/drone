@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target xbox_controller_gencfg[0m
+[ 25%] [34m[1mGenerating dynamic reconfigure files from cfg/Controller_init.cfg: /home/thanhdat/drone/devel/.private/xbox_controller/include/xbox_controller/Controller_initConfig.h /home/thanhdat/drone/devel/.private/xbox_controller/lib/python3/dist-packages/xbox_controller/cfg/Controller_initConfig.py[0m
+Generating reconfiguration files for Controller_init in xbox_controller
+Wrote header file in /home/thanhdat/drone/devel/.private/xbox_controller/include/xbox_controller/Controller_initConfig.h
+[ 25%] Built target xbox_controller_gencfg
+[35m[1mScanning dependencies of target Xbox_controller_Node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Xbox_controller_Node.dir/src/Xbox_controller_Node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/Xbox_controller_Node.dir/src/Map.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/thanhdat/drone/devel/.private/xbox_controller/lib/xbox_controller/Xbox_controller_Node[0m
+[100%] Built target Xbox_controller_Node

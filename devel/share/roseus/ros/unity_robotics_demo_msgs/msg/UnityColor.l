@@ -1,0 +1,1 @@
+/home/thanhdat/drone/devel/.private/unity_robotics_demo_msgs/share/roseus/ros/unity_robotics_demo_msgs/msg/UnityColor.l
