@@ -1,9 +1,0 @@
-Name: msp
-Description: Implementation of the MultiWii Serial Protocol (MSP) for MultiWii and Cleanflight flight controller
-Version: 3.4.0
-Requires: 
-prefix=/home/thanhdat/drone/devel_isolated/msp
-includedir=${prefix}/include/
-libdir=${prefix}/lib
-Libs: -L${libdir} -lmsp_fcu -lmspclient
-Cflags: -I${includedir}
